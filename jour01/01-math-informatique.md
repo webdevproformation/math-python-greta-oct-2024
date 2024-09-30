@@ -57,7 +57,19 @@ START
 
 
     objectif => le perso arrive à la case du trésor
-    x = 3
-    y = 3 
+    x = 2
+    y = 2
 END 
 ```
+
+
+# cas pratique 
+
+pour ceux qui ont compris  voici un cas traiter  , vous avez un nouveau labyrinthe :
+
+<https://user.oc-static.com/upload/2022/03/24/16481140439378_FR_4366701_ALGO_STATICS_P1C3-2.jpg>
+
+- attention aux obstacles au milieu / attention au monstre
+- attention il y a deux solutions possible pour atteindre le trésor
+
+- écrire le pseudo code pour faire en sorte que le perso arrive sur la case du trésor
