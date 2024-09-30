@@ -51,3 +51,12 @@ START
     aller_en_haut(2)
 END
 ``` 
+
+# cas pratique 
+
+en utilisant l'image 05-exo.png, créer un programme qui permet au personnage d'atteindre le trésor sans passer les pierres / les monstres
+
+créer des fonctions qui permettent de se déplacer vers le haut et vers la droite
+
+si le personnage se déplace horizontalement son score augmente de + 1
+si le personnage se déplace verticalement  son score augmente de + 2
