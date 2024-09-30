@@ -56,6 +56,8 @@ END
 
 en utilisant l'image 05-exo.png, créer un programme qui permet au personnage d'atteindre le trésor sans passer les pierres / les monstres
 
+![](https://github.com/webdevproformation/math-python-greta-oct-2024/blob/main/jour01/05-exo.png)
+
 créer des fonctions qui permettent de se déplacer vers le haut et vers la droite
 
 si le personnage se déplace horizontalement son score augmente de + 1
