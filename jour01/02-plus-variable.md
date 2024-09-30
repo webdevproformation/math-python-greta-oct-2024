@@ -32,3 +32,16 @@ START
     score = score + 20
 END 
 ```
+
+# cas pratique 
+
+![](https://user.oc-static.com/upload/2022/03/24/16481140439378_FR_4366701_ALGO_STATICS_P1C3-2.jpg)
+
+reprendre le 2ème labyrinthe et faire en sorte que le perso arrive au trésor SANS toucher les arbres / pierres et le monstre
+vous devez suivre sa position x et y ainsi que son score
+
+si le personnage se déplace vers la droite le score augmente de + 15
+si le personnage se déplace vers le haute le score augmente de + 5
+
+Ecrire le code pour résoudre ce problème 
+Quel est le score final ? 
