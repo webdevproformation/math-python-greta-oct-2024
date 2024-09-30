@@ -42,5 +42,39 @@ si la variable langue contient la valeur "es" écrire "Hola"
 si la variable langue contient la valeur "gr" écrire "Hallo"
 si la variable langue contient la valeur "fr" écrire "Bonjour"
 
- 
+```txt
+START
+    langue = "english"
 
+    SI langue == "english
+        ECRIRE "Hello"
+    SI langue == "espagnol"
+        ECRIRE "Hola"
+    SI langue == "germany"
+        ECRIRE "Hallo"
+    SI langue == "français"
+        ECRIRE "Bonjour"
+END
+```
+
+
+
+```
+START
+        verif = 1 == 1
+                TRUE
+        verif2 = 10 == 10 
+                TRUE
+        verif3 = "Hello" == "Hello"
+                True 
+
+        text = "Hello"
+
+        verif4 = text == "Hello"
+        #        "Hello" == "Hello"
+
+END
+```
+
+
+# cas pratique 
