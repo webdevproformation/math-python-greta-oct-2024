@@ -48,3 +48,129 @@ END
 
 1. Ecrire le code pour résoudre ce problème 
 1. Quel est le score final ? 
+
+
+# solution 1
+
+```
+START
+    x = 0
+    y = 0
+    score = 0
+
+    aller à droite
+    x = x + 1
+    score = score + 15
+    
+    aller à droite
+    x = x + 1
+    score = score + 15
+
+    aller à droite
+    x = x + 1
+    score = score + 15
+
+    aller en haut
+    y = y + 1
+    score = score + 5
+
+    aller en haut
+    y = y + 1
+    score = score + 5
+
+    aller en haut
+    y = y + 1
+    score = score + 5
+    
+
+    le score final est de 60 
+END
+```
+
+
+# solution 2
+
+```
+START
+    x = 0
+    y = 0
+    score = 0
+
+    aller à droite 3 fois
+    x = x + 1 * 3
+    score = score + 15 * 3
+
+    aller en haut 3 fois
+    y = y + 1 * 3
+    score = score + 5 * 3
+    
+    le score final est de 60 
+END
+```
+
+
+# solution 3
+
+```
+START
+    x = 0
+    y = 0
+    score = 0
+
+    aller en haut
+    y = y + 1 
+    score = score + 5 
+    
+    aller en haut
+    y = y + 1 
+    score = score + 5 
+    
+    aller à droite
+    x = x + 1 
+    score = score + 15 
+
+    aller en haut
+    y = y + 1 
+    score = score + 5 
+    
+    aller à droite
+    x = x + 1 
+    score = score + 15 
+
+    aller à droite
+    x = x + 1 
+    score = score + 15 
+
+
+    le score final est de 60 
+END
+```
+
+
+# solution 4
+
+```
+START
+    x = 0
+    y = 0
+    score = 0
+
+    aller en haut
+    y = y + 1  * 2
+    score = score + 5  * 2
+    
+    aller à droite
+    x = x + 1 
+    score = score + 15 
+
+    aller en haut
+    y = y + 1 
+    score = score + 5 
+    
+    aller à droite
+    x = x + 1 * 2
+    score = score + 15  * 2
+
+    le score final est de 60 
+END
+```
