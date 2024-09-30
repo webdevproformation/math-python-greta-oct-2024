@@ -30,6 +30,17 @@ START
 END
 ```
 
+# cas pratique 
+
+créer un script qui contient les instructions suivantes 
+
+créer une variable qui s'appelle langue qui contient le texte "fr"
+
+
+si la variable langue contient la valeur "en" écrire "Hello"
+si la variable langue contient la valeur "es" écrire "Hola"
+si la variable langue contient la valeur "gr" écrire "Hallo"
+si la variable langue contient la valeur "fr" écrire "Bonjour"
 
  
 
