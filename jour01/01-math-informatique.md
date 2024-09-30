@@ -100,3 +100,5 @@ pour ceux qui ont compris  voici un cas traiter  , vous avez un nouveau labyrint
 - attention il y a deux solutions possible pour atteindre le trésor
 
 - écrire le pseudo code pour faire en sorte que le perso arrive sur la case du trésor
+
+# bientôt la correction 
