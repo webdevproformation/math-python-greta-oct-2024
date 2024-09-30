@@ -78,3 +78,9 @@ END
 
 
 # cas pratique 
+
+créer une variable ville contient le texte "Lille"
+
+si la variable ville est égale à Paris alors écrire "je viens dans le 75"
+si la variable ville est égale à Boulogne OU Clamart OU Montrouge alors écrire "je viens du 92"
+si la variable ville est égale à Pantin OU Aubervillier OU Bobigny alors écrire "je viens du 93"
