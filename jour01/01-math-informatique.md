@@ -102,3 +102,93 @@ pour ceux qui ont compris  voici un cas traiter  , vous avez un nouveau labyrint
 - écrire le pseudo code pour faire en sorte que le perso arrive sur la case du trésor
 
 # bientôt la correction 
+
+## solution 1
+
+```txt
+START
+    x = 0
+    y = 0
+
+    aller à droite  x  1 et y  0
+    x = x + 1
+
+    aller à droite  x  2 et y  0
+    x = x + 1
+
+    aller à droite  x  3 et y  0
+    x = x + 1
+
+    aller en haut   x  3 et y  1
+    y = y + 1
+
+    aller en haut   x  3 et y  2
+    y = y + 1
+
+    aller en haut   x  3 et y  3
+    y = y + 1
+
+END
+```
+
+## solution 2
+
+```txt
+START
+    x = 0
+    y = 0
+
+    x = x + 3
+    y = y + 3
+
+END
+```
+
+## solution 3
+
+```txt
+START
+    x = 0
+    y = 0
+    
+    aller en haut x 0 y 1
+    y = y + 1
+
+    aller en haut x 0 y 2
+    y = y + 1
+
+    aller à droite  x 1 y 2
+    x = x + 1
+
+    aller en haut  x 1 y 3
+    y = y + 1
+
+    aller à droite  x 2 y 3
+    x = x + 1
+
+    aller à droite  x 3 y 3
+    x = x + 1
+END
+```
+
+
+## solution 4
+
+```txt
+START
+    x = 0
+    y = 0
+    
+    aller en haut x 0 y 2
+    y = y + 2
+
+    aller à droite  x 1 y 2
+    x = x + 1
+
+    aller en haut  x 1 y 3
+    y = y + 1
+
+    aller à droite  x 3 y 3
+    x = x + 2
+END
+```
