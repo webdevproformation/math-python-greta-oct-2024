@@ -113,10 +113,31 @@ END
 pour chaque comparaison opérationn boolean dire SI c'est True ou False ??
 
 ```txt
-2 >= 2
+2 >= 2 
+True
+
 "a" == "ab"
+False
+
 2 != 3 ET 10 < 33
+True   ET  True 
+True 
+
 (2 != 5 ET  3 > 4 ) OU 2 <= 14 
+( True  ET  False ) OU True
+(   False )         OU True
+True   
+
+
 2 != 5 ET  ( 3 > 4  OU 2 <= 14 ) 
+True   ET  ( False  OU  True   )
+True   ET   ( True )
+True 
+
+
 2 != 5 ET  3 > 4  OU 2 <= 14  
+True   ET   False OU True
+    False         OU True
+            TRue 
+
 ```
