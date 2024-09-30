@@ -62,3 +62,82 @@ créer des fonctions qui permettent de se déplacer vers le haut et vers la droi
 
 si le personnage se déplace horizontalement son score augmente de + 1
 si le personnage se déplace verticalement  son score augmente de + 2
+
+
+# les symboles 
+
+- en informatique vous pouvez :
+    - additionner des chiffres avec le symbole `+`
+    - soustraire des chiffres avec le symbole `-`
+    - multiplier des chiffres avec le symbole `*`
+    - diviser des chiffres avec le symbole `/`
+    - puissance d'un chiffre sur un autre des chiffres avec le symbole `**`
+
+
+# Solution 1
+
+```
+FONCTION
+    aller_a_droite (nb_fois)
+        x = x + 1 * nb_fois
+        score = score + 1 * nb_fois
+
+    aller_en_haut (nb_fois)
+        y = y + 1 * nb_fois
+        score = score + 2 * nb_fois
+START
+    x = 0
+    y = 0 
+    score = 0
+    aller_a_droite(2)
+    aller_en_haut(3)
+END
+```
+
+
+# Solution 2
+
+```
+FONCTION
+    aller_a_droite (nb_fois)
+        x = x + 1 * nb_fois
+        score = score + 1 * nb_fois
+
+    aller_en_haut (nb_fois)
+        y = y + 1 * nb_fois
+        score = score + 2 * nb_fois
+START
+    x = 0
+    y = 0 
+    score = 0
+    aller_en_haut(3)
+    aller_a_droite(2)
+END
+```
+
+# Solution 3
+
+```
+FONCTION
+    aller_a_droite (nb_fois)
+        x = x + 1 * nb_fois
+        score = score + 1 * nb_fois
+
+    aller_en_haut (nb_fois)
+        y = y + 1 * nb_fois
+        score = score + 2 * nb_fois
+
+    aller_a_gauche (nb_fois)
+        x = x - 1 * nb_fois
+        score = score + 1 * nb_fois
+START
+    x = 0
+    y = 0 
+    score = 0
+    aller_a_droite(2)
+    aller_en_haut(2)
+    aller_a_droite(1)
+    aller_en_haut(1)
+    aller_a_gauche(1)
+END
+```
