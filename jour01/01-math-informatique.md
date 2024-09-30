@@ -62,6 +62,33 @@ START
 END 
 ```
 
+# solution du premier jeu 
+
+```
+START
+    x = 0
+    y = 0
+
+    déplacer à droite d'une case 
+    x = x + 1   
+    dans ma tête et dans la RAM de l'ordinateur x = 1 y = 0
+
+    déplacer vers le haute d'une case 
+    y = y + 1
+    dans ma tête et dans la RAM de l'ordinateur x = 1 y = 1
+
+    déplacer à droite d'une case 
+    x = x + 1   
+    dans ma tête et dans la RAM de l'ordinateur x = 2 y = 1
+
+    déplacer vers le haute d'une case 
+    y = y + 1
+    dans ma tête et dans la RAM de l'ordinateur x = 2 y = 2
+
+    etant donné que x = 2 y = 2 => j'ai gagné !!!!!!!!!
+END 
+```
+
 
 # cas pratique 
 
