@@ -84,3 +84,19 @@ créer une variable ville contient le texte "Lille"
 si la variable ville est égale à Paris alors écrire "je viens dans le 75"
 si la variable ville est égale à Boulogne OU Clamart OU Montrouge alors écrire "je viens du 92"
 si la variable ville est égale à Pantin OU Aubervillier OU Bobigny alors écrire "je viens du 93"
+
+
+```
+START
+
+    ville = "Lille"
+
+    SI ville == "Paris"
+        ECRIRE "je viens dans le 75"
+    SI ville == "Boulogne" OU ville == "Montrouge" OU ville == "Clamart"
+        ECRIRE "je viens du 92"
+    SI ville == "Pantin" OU ville == "Aubervillier" OU ville == "Bobigny"
+        ECRIRE "je viens du 93"
+
+END
+```
