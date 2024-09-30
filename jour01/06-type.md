@@ -42,9 +42,20 @@ END
 ```
 
 # cas pratique 
-
+ 
 créer un programme en pseudo code qui contient les intructions suivantes 
 
     créer une variable prix qui contient le chiffre à virgule 22.34
     créer une variable isAdmin qui contient le Boolean faux
     créer une variable auteur qui contient le texte George Sand 
+
+```txt
+START
+    prix = 22.34  => addition / soustraction / division / multiplication
+    # attention les chiffres entourés de guillemet sont des string
+    # plus possible de faire  addition / soustraction / division / multiplication
+    # prix = "22.34"
+    isAdmin = False
+    auteur = "George Sand"
+END
+```
