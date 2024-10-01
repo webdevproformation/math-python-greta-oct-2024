@@ -21,3 +21,9 @@ START
     # la variable étudiants contient un tableau qui contient 4 string 
 END
 ```
+
+## cas pratique
+
+créer un script en PSEUDO Code qui contient une variable  :
+    - qui s'appelle recette 
+    - qui contient les string suivantes : "Carotte", pomme de terre , riz , sel , poivre  
