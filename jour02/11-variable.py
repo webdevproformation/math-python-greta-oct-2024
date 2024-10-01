@@ -84,11 +84,10 @@ etudiant = Etudiant()
 print(etudiant.age)
 
 """
-créer un le fichier 11-exo.py
+créer un le fichier 12-exo.py
 1/ créer la variable test qui va contenir 
 le résultat de la comparaison suivante : 255 <= 3
 2/ créer la variable inconnu de type texte contenant le mot 'bonjour'
 3/ créer la variable voiture qui est une liste vide 
 4/ afficher ces trois variables dans le terminal de votre IDE
-
 """
