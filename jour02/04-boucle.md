@@ -85,3 +85,17 @@ START
 END
 ```
 
+
+# cas pratique
+
+créer un script en PSEUDO Code qui contient une variable de type tableau :
+    - qui s'appelle lettres 
+    - elle contient les 6 valeurs suivantes 
+        - a
+        - a
+        - b
+        - c
+        - a
+        - e
+
+pouvez vous me dire combien il y a de lettre a dans le tableau lettre ??
