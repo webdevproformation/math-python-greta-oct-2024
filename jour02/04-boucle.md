@@ -56,3 +56,32 @@ pouvez vous me dire si tableau contient un chiffre supérieur à 50 ??
 
 bonus
 pouvez vous dire quelle est le nombre qui est le plus petit ??
+
+
+```
+START
+    produits = [22 , 44 , 11 , 10 , 3 , 200]
+    
+    BOUCLE i 0 .. 5 AUGMENTER +1
+        SI produits[i] > 50
+            ECRIRE True
+
+    minimum = produits[0] 
+    # stocke la première valeur dans cette variable
+    BOUCLE i 1 .. 5 AUGMENTER +1
+        SI produits[i] < minimum
+            minimum = produits[i]
+    ECRIRE minimum
+
+
+    minimum = 0 
+    # stocke la première valeur dans cette variable
+    BOUCLE i 0 .. 4 AUGMENTER +1
+        SI produits[i] < produits[i + 1]
+            minimum = produits[i]
+        SI produits[i] > produits[i + 1]
+            minimum = produits[i + 1]
+    ECRIRE minimum
+END
+```
+
