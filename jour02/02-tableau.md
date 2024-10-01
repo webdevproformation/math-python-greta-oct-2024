@@ -81,3 +81,16 @@ créer un script en PSEUDO Code qui contient une variable  :
     récupérer la valeur   MySQL du tableau
     récupérer la valeur   PHP du tableau
     récupérer la valeur   JS du tableau
+
+
+```
+START
+    competences = [ "PHP", "JS", "angular" , "Python" , "CSS" , "MySQL" ]
+    #                 0     1        2          3         4       5
+
+    competences[2]
+    competences[5]
+    competences[0]
+    competences[1]
+END
+```
