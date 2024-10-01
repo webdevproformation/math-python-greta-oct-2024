@@ -44,3 +44,20 @@ END
 ```
 - en javascript il est possible de créer de objet (comme on vient de voir)
 - en PHP en Python en Java => il faut créer une class pour créer des objets 
+
+
+# cas pratique 
+
+créer un script en PSEUDO Code qui contient une variable de type objet :
+    - qui s'appelle formation 
+    - qui contient les clé / valeur suivantes
+        - nom DWWM
+        - duree 6 mois
+        - matieres tableau JS PHP Symfony HTML CSS 
+        - lieu tableau présentiel , distanciel
+        - prix 10000
+        - encours Vrai
+
+comment récupérer la valeur DWWM depuis l'objet
+comment récupérer la valeur Symfony depuis l'objet
+comment récupérer la valeur distanciel depuis l'objet
