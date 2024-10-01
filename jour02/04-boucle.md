@@ -38,3 +38,21 @@ START
 
 END
 ```
+
+
+# cas pratique
+
+créer un script en PSEUDO Code qui contient une variable de type tableau :
+    - qui s'appelle produits 
+    - elle contient les prix suivants
+        - 22
+        - 44
+        - 11
+        - 10
+        - 3
+        - 200
+
+pouvez vous me dire si tableau contient un chiffre supérieur à 50 ??
+
+bonus
+pouvez vous dire quelle est le nombre qui est le plus petit ??
