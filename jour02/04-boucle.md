@@ -99,3 +99,20 @@ créer un script en PSEUDO Code qui contient une variable de type tableau :
         - e
 
 pouvez vous me dire combien il y a de lettre a dans le tableau lettre ??
+
+```
+START
+    lettre_a_rechercher = "a"
+    lettres = ["a" , "a" , "b" , "c" , "a", "e"]
+    
+    resultat = 0 
+
+    BOUCLE i 0 .. 5 AUGMENTER + 1
+        SI lettres[i] == lettre_a_rechercher
+            resultat = resultat + 1
+    
+    ECRIRE resultat     # 3 qui apparait 
+
+END
+```
+
