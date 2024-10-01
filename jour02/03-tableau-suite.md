@@ -61,3 +61,20 @@ créer un script en PSEUDO Code qui contient une variable de type objet :
 comment récupérer la valeur DWWM depuis l'objet
 comment récupérer la valeur Symfony depuis l'objet
 comment récupérer la valeur distanciel depuis l'objet
+
+```
+START
+    formation = {
+        nom : "DWWM",
+        duree : "6 mois",
+        matieres : ["JS" , "PHP", "Symfony", "HTML", "CSS" ] ,
+        lieu : ["présentiel" , "distanciel"],
+        prix : 10000 ,
+        encours : True
+    }
+
+    formation.nom
+    formation.matieres[2]
+    formation.lieu[1]
+END
+```
