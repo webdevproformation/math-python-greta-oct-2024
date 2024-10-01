@@ -78,6 +78,6 @@ créer un script en PSEUDO Code qui contient une variable  :
     - qui contient les string suivantes (tableau) : "PHP", JS, angular , Python , CSS , MySQL
         
     récupérer la valeur   angular du tableau
-    récupérer la valeur   angular du MySQL
-    récupérer la valeur   angular du PHP
-    récupérer la valeur   angular du JS
+    récupérer la valeur   MySQL du tableau
+    récupérer la valeur   PHP du tableau
+    récupérer la valeur   JS du tableau
