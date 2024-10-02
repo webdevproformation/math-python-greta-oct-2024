@@ -197,6 +197,24 @@ b = False
 c = "False"
 # attention "False" c'est pas la même chose QUE False 
 
+# tableau => 4 types en Python
+# list xxx
+# tuple
+# set
+# dictionnaire
 
+# liste 
+etudiant = [ "Alain" , "Zorro" ]
 
+# une class
+
+class Etudiant
+    nom = "Alain"
+    age = 22
+    competences = ["PHP", "JS"]
+
+# créer un objet depuis la class 
+etudiant = Etudiant()
+
+etudiant.competences[0]
 ```
