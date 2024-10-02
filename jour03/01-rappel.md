@@ -87,32 +87,84 @@ END
 
 # fonction 
 
-
+- variable dans laquelle vous allez stocker des instructions 
 
 ```txt
+FONCTION
+    # créer / déclarer une fonction
+    addition()
+        a = 1
+        b = 2
+        c = a + b 
 START
-
+    # appeler / exécuter une fonction 
+    addition()
 END
 ```
 
 # boucle 
 
+- permet de faire répéter des instructions
+- variable => i (incrément)
+- valeur de départ 0
+- valeur maximum  10
+- augmentation + 1 (à chaque tour de boucle)
+
 ```txt
 START
+    
+    BOUCLE i 0 .. 10 AUGMENTER + 1
 
 END
 ```
 
 # algorithme 
 
-- mixer boucle / condition / variable 
+- mixer boucle / condition / variable / fonction 
+- trier un tableau du plus petit au plus grand => https://fr.wikipedia.org/wiki/Tri_%C3%A0_bulles
+- prendre un tableau et insérer dedans une valeur qui va pousser vers la droite les autres valeurs 
 
 ```txt
 START
+    anniversaires = ["a" , "b" , "c" , "d"]
 
+    position = 0 
+    
+    BOUCLE i 0 .. 3 AUGMENTE +1
+        SI anniversaires[i] == "b"
+            position = i 
+
+    resultat = []
+    
+    BOUCLE i 0 .. position AUGMENTE +1
+        resultat[i] = anniversaires[i]
+
+    resultat[position + 1] = "x"
+
+    BOUCLE i position + 1 .. 3 AUGMENTE +1
+        resultat[i + 1] = anniversaires[i]
 END
 ```
 
 # Python
 
+- langage très utilisé en 2024 (notamment dans le domaine de l'IA)
+- nous allons utiliser la version 3.12
+
+## commentaire en Python
+
+```py
+# commentaire monoligne
+
+"""
+commentaire
+multiligne
+"""
+```
+
 ## variable en Python
+
+```py
+
+
+```
