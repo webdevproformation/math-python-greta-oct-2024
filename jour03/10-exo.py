@@ -42,3 +42,23 @@ verif3 = c >= b or a < b
 """
 if verif3 :
     print("verif 3 ok") # ne doit s'afficher
+
+
+"""
+```py
+# créer un nouveau fichier 11-exo.py contenant une variable ville
+# initialiser la variable ville = "Marseille"
+
+# si ville a pour valeur Paris 
+# alors afficher dans la console "vous habitez à Paris"
+
+# si ville a pour valeur Boulogne ou Clamart ou Montrouge 
+# alors afficher dans la console "vous habitez dans le 92"
+
+# si ville a pour valeur Saint-Denis ou Aubervilliers ou Pantin
+#  alors afficher dans la console "vous habitez dans le 93"
+
+# sinon
+# afficher dans la console "vous habitez hors d'Ile de France"
+```
+"""
