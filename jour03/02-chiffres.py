@@ -53,4 +53,10 @@ effectuer les calculs suivants et afficher leurs résultats dans la console
     a * (c + a)
     a / b
     c / b
+
+Linux / mac OS => clear
+Windows        => cls 
 """
+
+
+
