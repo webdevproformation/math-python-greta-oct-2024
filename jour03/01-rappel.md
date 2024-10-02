@@ -218,3 +218,5 @@ etudiant = Etudiant()
 
 etudiant.competences[0]
 ```
+
+# rdv 10h25 bon café @ toute suite !!!!!!!!!!!!!!!!!!!!!!!!
