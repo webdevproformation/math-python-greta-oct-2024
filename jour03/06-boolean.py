@@ -46,4 +46,18 @@ f = not 23 < 2
 #   not False => True
 print(f)
 
+"""
+créer le fichier 07-exo.py
+dans ce fichier vous allez créer des variables qui vont stocker les opérations boolean suivantes
+2 >= 2
+ "a" == "ab"
+ 2 != 3 and 10 < 33
+ "hello" > "bonjour" 
+ 2 ==  "2"
+ "2" == "2"
+ (2 != 5 and 3 > 4 ) or 2 <= 14 
+ 2 != 5 and ( 3 > 4  or 2 <= 14 ) 
+ 2 != 5 and 3 > 4  or 2 <= 14  
 
+ pour chacune dire si c'est True ou False => expliquer pourquoi ??
+"""
