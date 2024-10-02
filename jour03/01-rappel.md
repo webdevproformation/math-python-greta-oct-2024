@@ -36,6 +36,9 @@ START
     adresses = [ "75 rue de Lille" , "80 rue de Marseille" ,  "22 rue de Paris" ]
 
     # version avec saut de ligne après chaque valeur 
+
+    # square bracket  []
+    # crochet []
     adresses = [ 
             "75 rue de Lille" ,       # 0
             "80 rue de Marseille" ,   # 1
@@ -51,13 +54,40 @@ END
 
 # objet 
 
-```txt
-START
+- variable qui contient PLUSIEURS VALEURS
+- curly bracket  { } 
+- clé : valeur
 
+```txt
+START    
+    # curly bracket  { } 
+    # accolade { }
+    # objet qui contient 6 clés 
+    voiture = {
+        "clé" : "valeur", # dans certain langage il faut mettre des "" sur la clé
+        modele : 206,     # dans d'autres langages pas la peine 
+        marque : "Peugeot"
+        annee : 2020,
+        prix : 10_250.3
+        proprietaire : {
+            nom : "Alain"
+        },
+        enCirculation : True
+    }
+
+    # je veux récupérer la valeur 2020 qui est stockée dans l'objet comment faire ?
+
+    voiture.annee 
+
+    # je veux récupérer la valeur "Alain" qui est stockée dans l'objet comment faire ?
+
+    voiture.proprietaire.nom
 END
 ```
 
 # fonction 
+
+
 
 ```txt
 START
