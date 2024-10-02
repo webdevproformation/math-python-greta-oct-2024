@@ -37,6 +37,9 @@ https://discord.gg/NBmaqf8F
 
 sharemycode.fr => 
 
+# raccourci clavier pour utilisateur de MacOS
+
+https://webdevpro.net/raccourcis-clavier-pour-coder-sur-macos
 
 ----------------
 

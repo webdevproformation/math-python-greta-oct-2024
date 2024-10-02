@@ -20,6 +20,37 @@ END
 
 # tableau 
 
+- variable que contient PLUSIEURS VALEURS
+- ça permet d'éviter de créer autant de variable que j'ai de valeurs à stocker 
+
+```txt
+START
+    # 3 variables qui contient 1 string chacune
+    adresse1 = "75 rue de Lille"
+    adresse2 = "80 rue de Marseille"
+    adresse3 = "22 rue de Paris"
+
+    # au lieu d'avoir 3 variables => grâce au tableau je n'ai QUE UNE SEULE VARIABLE qui contient 3 valeurs de type string 
+    
+    # version en 1 ligne
+    adresses = [ "75 rue de Lille" , "80 rue de Marseille" ,  "22 rue de Paris" ]
+
+    # version avec saut de ligne après chaque valeur 
+    adresses = [ 
+            "75 rue de Lille" ,       # 0
+            "80 rue de Marseille" ,   # 1
+            "22 rue de Paris"         # 2
+    ]
+
+    # pour utiliser les valeurs stockées DANS un tableau il faut utiliser leur position (index)
+    
+    # pour récupérer la valeur "80 rue de Marseille" qui est stockée dans le tableau 
+    adresses[1]  
+END
+```
+
+# objet 
+
 ```txt
 START
 
