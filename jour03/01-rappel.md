@@ -165,6 +165,19 @@ multiligne
 ## variable en Python
 
 ```py
+# chiffre
+# chiffre entier
+distance = 200
 
+# chiffre à virgule
+# https://docs.python.org/fr/3/tutorial/floatingpoint.html
+remise = 0.5
+remise = 1/3 => 0.33333333333333333333333333333333333333....
+remise = 1/3 => 0.3333333333333333333334
+
+# chiffre complex
+coordonnees = 2 + 3j
+
+# les textes
 
 ```
