@@ -38,3 +38,19 @@ url : https://formation.webdevpro.net/python-initiation/
 login : python
 password : v3 
 """
+
+"""
+cas pratique 
+
+créer le fichier 03-exo.py
+Ce script contient 3 variables :
+    a ayant la valeur 12
+    b ayant la valeur 0
+    c ayant la valeur -2,5
+effectuer les calculs suivants et afficher leurs résultats dans la console
+    a / c
+    a * c + a
+    a * (c + a)
+    a / b
+    c / b
+"""
