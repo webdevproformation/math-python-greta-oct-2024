@@ -28,3 +28,21 @@ print(2 != 5 and 3 > 4  or 2 <= 14  )
 #      True  and False    or True
 #      False              or True
 #           True
+
+
+"""
+créer un fichier 08-exo.py
+a = 2 
+b = 3 
+c = -5 
+
+verif1 =  a < b 
+print(verif1) 
+
+verif2 = a < b and b > c 
+print(verif2) 
+
+verif3 = a > b or b > c 
+print(verif3) 
+# dire si c'est true ou false et Pourquoi ?
+"""
