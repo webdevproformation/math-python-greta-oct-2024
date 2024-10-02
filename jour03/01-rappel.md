@@ -180,4 +180,23 @@ coordonnees = 2 + 3j
 
 # les textes
 
+texte = "coucou"
+texte = 'coucou'
+texte = """
+je veux 
+sauter des lignes
+dans ma string 
+"""
+
+# boolean
+
+a = True
+b = False
+
+# première lettre en majuscule les autre en minuscules
+c = "False"
+# attention "False" c'est pas la même chose QUE False 
+
+
+
 ```
