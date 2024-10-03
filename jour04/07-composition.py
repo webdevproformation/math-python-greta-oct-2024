@@ -1,6 +1,6 @@
 class Maison :
     def __init__(self):
-        self.pieces = [Piece(name) for name in ["cuisine", "salon", "chambre"] ]
+        self.pieces = [Piece(name) for name in ["cuisine", "salon", "chambre"]  ]
 
     def __del__ (self):
         print("maison detruite")
