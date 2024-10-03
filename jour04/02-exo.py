@@ -18,3 +18,32 @@ for i in range(10, -5,-2):
     # 5 x i = i * 5
     solution = f"5 x {i} = {i * 5}"
     print(solution)
+
+"""
+créer le fichier 03-exo.py
+boucle qui contient une condition
+
+boucle 1 => 100 augmente de +1
+    si i multiple de 3 => fizz
+    si i multiple de 5 => buzz
+    si i multiple de 5 et 3 => fizzbuzz
+    sinon écrire le chiffre
+
+1
+2
+fizz
+4
+buzz
+fizz
+7
+8
+fizz
+buzz
+11
+fizz
+13
+14 
+fizzbuzz
+...
+buzz
+"""
