@@ -125,3 +125,12 @@ en utilisant une boucle, afficher dans la console les string suivants :
 4 x 4 = 16
 4 x 5 = 20
 4 x 6 = 24
+
+Bonus 
+
+5 x 10 = 50
+5 x 9 = 45
+5 x 8 = 40
+5 x 7 = 35
+...
+5 x 1 = 5
