@@ -104,3 +104,14 @@ else :
 # boucle
 
 - itérer ou boucler faire loop => synonyme 
+
+BOUCLE i 0 .. 10 AUGMENTATION + 1
+
+```py
+for i in range(0, 10, 1) :
+    print("bonjour")
+
+for i in range(0, 10) : # vous pouvez omettre le 3 ème argument si il vaut 1
+    print("bonjour")
+
+```
