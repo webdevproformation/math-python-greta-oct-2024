@@ -9,7 +9,7 @@ while i < 10: # maximum (condition de sortie)
     i += 1    # augmentation 
 
 reponse = input("comment allez aujourd'hui ????")
-print(reponse)
+print(type(int(reponse)))
 
 """
 cas pratique 
