@@ -32,3 +32,22 @@ b = 10
 print(a + b) """
 
 # les fonctions est concepts CENTRAL en informatique car elles permettre de BIEN ORGANISER son code 
+
+"""
+créer un nouveau fichier 09-exo.py
+ce fichier contient deux fonctions 
+
+1/fonction addition 
+contient trois instructions 
+créer la variable a : 20
+créer la variable b : 30
+afficher dans la console b + a
+
+2/ fonction soustraction
+contient trois instructions 
+créer la variable a : 15,4
+créer la variable b : 223
+afficher dans la console a - b
+
+3/ exécuter ces deux fonctions 
+"""
