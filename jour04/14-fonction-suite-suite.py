@@ -47,3 +47,16 @@ def genererPdf( **options ): # keywordargument => kwarg
 genererPdf(nom = "Victor Hugo" , dt = "janvier 2024" , isAvailable = True )
 genererPdf(nom = "Arthur Rimbault")
 genererPdf(nom = "Albert Camus" , dt = "1960" , description ="il est largement considéré comme l’un des plus grands écrivains français de tous les temps.")
+
+"""
+créer le fichier 15-exo.py
+
+1/ déclarer une fonction min 
+
+2/ cette fonction dispose de deux arguments a et b
+
+3/ cette fonction contient 3 instructions :
+- si a est supérieur à b afficher la valeur de b dans la console
+- si a est inferieur à b afficher la valeur de a dans la console
+- si a est égal à b afficher la valeur de a dans la console
+"""
