@@ -113,5 +113,15 @@ for i in range(0, 10, 1) :
 
 for i in range(0, 10) : # vous pouvez omettre le 3 ème argument si il vaut 1
     print("bonjour")
-
 ```
+
+# cas pratique
+
+Créer un nouveau fichier 01-exo.py
+
+en utilisant une boucle, afficher dans la console les string suivants :
+4 x 2 = 8
+4 x 3 = 12
+4 x 4 = 16
+4 x 5 = 20
+4 x 6 = 24
