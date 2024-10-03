@@ -40,3 +40,18 @@ for i in range (2,7) :
     # 4 x i = i * 4
     # TypeError: can only concatenate str (not "int") to str
     print("4 x" , str(i) , "=" , str(i * 4))
+
+
+"""
+Créer un nouveau fichier 02-exo.py
+
+en utilisant une boucle, afficher dans la console les string suivants :
+5 x 10 = 50
+5 x 8 = 40
+5 x 6 = 30
+5 x 4 = 20
+5 x 2 = 10
+5 x 0 = 0
+5 x -2 = -10
+5 x -4 = -20
+"""
