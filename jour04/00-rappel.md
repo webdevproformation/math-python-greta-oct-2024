@@ -80,14 +80,25 @@ if 10 > 2 and 2 < 5 or 6 > 1 :
 
 isAdmin = False
 
-if isAdmin :
+if isAdmin == True :
     print("bienvenue")
 else:
     print("vous n'êtes pas autorisé à accéder à cette page")
 
 # if ternaire 
 
-print("bienvenue") if isAdmin else print("vous n'êtes pas autorisé à accéder à cette page")
+print("bienvenue") if isAdmin == True else print("vous n'êtes pas autorisé à accéder à cette page")
+
+age = 50
+
+if age < 18 :
+    print ("mineur")
+elif age < 80 :
+    print("majeur")
+elif age < 120 :
+    print ("retraité")
+else :
+    print("chiffre impossible")
 ```
 
 # boucle
