@@ -48,3 +48,14 @@ for i in jours:
     print(i)
     #  "lundi" "mardi" "mercredi" "jeudi"
 
+"""
+Créer un nouveau fichier 06-exo.py
+
+- créer une fonction nommée voyelle et qui prend pour paramètre une chaine de caractère
+- cette fonction retourne le nombre de voyelles contenu dans la chaine de caractère donnée en argument
+
+exemples :
+
+voyelle('hello') // => 2
+voyelle('why') // => 1
+"""
