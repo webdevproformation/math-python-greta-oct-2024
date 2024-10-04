@@ -21,3 +21,19 @@ def voyelle2 (mot) :
     print(compteur)
 
 voyelle2 ("bonjour")
+
+"""
+Créer un nouveau fichier 07-exo.py
+
+créer une fonction dont le nom est palindrome et prenant un paramètre nommé mot
+
+- cette fonction doit retourner True si mot est un palindrome 
+- si mot n'est pas un palydrome alors la fonction retourne False
+
+exemples :
+print(palindrome("lol")) # => True
+print(palindrome("kayak")) # => True
+print(palindrome("laos")) # => False
+print(palindrome("table")) # => False
+
+"""
