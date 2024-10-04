@@ -34,3 +34,17 @@ print(tableau) # ['b', 'o', 'n', 'j', 'o', 'u', 'r']
 tableau.sort()
 print(tableau)
 print ("".join(tableau)) # bjnooru
+
+
+# faire une boucle / parcourir une liste 
+
+for i in range(0,10):
+    print(i)
+    # 0 1 2 3 4 5 6 7 8 9 
+
+jours = ["lundi", "mardi", "mercredi", "jeudi"]
+
+for i in jours:
+    print(i)
+    #  "lundi" "mardi" "mercredi" "jeudi"
+
