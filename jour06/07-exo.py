@@ -38,3 +38,29 @@ print(solution4)
 # - il y a 4 matières principales
 solution5 = f"il y a {len( formation["matieres"] )} matières principales"
 print(solution5)
+
+
+"""
+1/ créer le fichier  08-exo.py
+
+2/ le fichier contient une variable de type dictionnaire :
+- le nom de la variable est matiere
+- cette variable contient les valeurs suivantes :
+  - domaine => liste de  HTML et CSS
+  - duree => 2
+  - montant => 5
+  - unite qui contient une liste => semaines et jours
+  - 
+
+3/ afficher dans la console la phrase suivante 
+je suis une formation en HTML d'une durée de 5 jours
+
+4/ afficher dans la console la phrase suivante 
+il m'a fallu 2 semaines pour comprendre en détail CSS
+
+5/ afficher dans la console la phrase suivante
+2 x 5 = 10
+
+6/ afficher dans la console la phrase suivante
+HTML et CSS sont des langages clients
+"""
