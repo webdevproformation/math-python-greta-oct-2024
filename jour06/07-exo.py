@@ -64,3 +64,11 @@ il m'a fallu 2 semaines pour comprendre en détail CSS
 6/ afficher dans la console la phrase suivante
 HTML et CSS sont des langages clients
 """
+
+toto = {
+    "domaine" : ["tutu", "titi"]
+}
+
+# "je fais tutu"
+solution = f"je fais {toto['domaine'][0]}"
+print(solution)
