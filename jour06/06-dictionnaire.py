@@ -45,3 +45,25 @@ except KeyError :
 
 # la même chose avec get()
 print(etudiant.get("nom" , "la clé nom n'existe pas"))
+
+"""
+créer le fichier 07-exo.py
+
+dans ce fichier vous avez un dictionnaire
+s'appelle formation
+il contient les valeurs suivantes :
+    nom => DWWM
+    duree = 6
+    unite => mois
+    matieres une liste [ Python; js PHP MySQL ]
+
+à partir de cette variable, écrire dans la console le texte suivant 
+
+-  je suis une formation en DWWM dans laquelle je vais suivre du PHP et du MySQL
+
+- La formation dure 6 mois 
+
+- il y a 4 matières principales
+
+
+"""
