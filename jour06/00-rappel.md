@@ -151,3 +151,22 @@ liste.sort() # trier les valeurs du plus petit au plus grand
 liste.sort(reverse = True) # trier les valeurs du plus grand au plus petit
 liste.reverse() # mettre dans l'autre sens 
 ```
+
+créer le fichier 01-exo.py
+
+le fichier contient une variable de type list :
+- le nom de la variable est fleurs
+- cette variable contient les valeurs suivantes :
+  - rose
+  - lilas
+  - muguet
+  - jasmin
+  - tulipe
+
+3 afficher dans la console le premier élément de la variable fleurs
+4 afficher dans la console les 4 derniers éléments de la variable fleurs
+5 supprimer la valeur muguet
+6 ajouter après rose la valeur "fleur rouge"
+7 compteur le nombre de fleurs
+8 modifier tulipe par "fleur rose"
+9 afficher la valeur qui se trouve au milieu du tableau (qui a l'index au milieu)
