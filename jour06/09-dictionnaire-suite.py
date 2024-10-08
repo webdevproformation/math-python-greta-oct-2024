@@ -39,3 +39,27 @@ print(voiture)
 voiture.pop("id") # supprimer la clé id et sa valeur existante
 print(voiture)
 
+"""
+
+créer le fichier 10-exo.py
+
+dans de fichier vous avez un dictionnaire :
+- qcm
+- contient les valeurs suivantes
+    question1 contient un dictionnaire 
+        question : "comment écrire une variable"
+        reponses : liste [A, B, C, D]
+        solution : [A,D]
+    question2 contient un dictionnaire 
+        question : "comment écrire une fonction"
+        reponses : liste [A, B, C, D]
+        solution : [A,B]
+
+
+écrire dans la console le texte suivant 
+pour la question1 les bonnes réponses sont A et D
+
+changer la valeur de la question 2 : remplacer "comment écrire une fonction" par "comment écrire une fonction avec des arguments ???"
+        
+
+"""
