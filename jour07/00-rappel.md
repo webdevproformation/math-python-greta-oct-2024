@@ -105,3 +105,12 @@ vehicule.update({"prix" : 3_000_000})
 # supprimer la clé et valeur associée
 del vehicule["en_service"]
 ```
+
+```py
+# cas pratique
+
+# créer un script python qui retourne toutes les valeurs uniques d'une liste 
+
+# [1,2,3,5,2,1,4,3] => [4,5]
+# le chiffre 5 et le chiffre 4 sont uniques
+```
