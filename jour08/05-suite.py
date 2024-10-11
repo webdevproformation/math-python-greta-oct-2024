@@ -18,3 +18,14 @@ for categorie, titre in zip(categories,titres):
 # créer un fichier sauvegarde.txt
 with open("jour08/sauvegarde.txt", "w",encoding="utf-8") as fichier:
     fichier.write(texte)
+
+
+"""
+cas pratique
+
+réaliser un web scrapping sur la page suivante : https://www.imdb.com/what-to-watch/fan-favorites/?ref_=watch_tpks_tab
+
+récupérer le nom du film et sa note
+
+sauvegarder le résultat dans un fichier favoris.txt
+"""
