@@ -1,0 +1,250 @@
+pays : Andorra - capital : Andorra la Vella
+pays : United Arab Emirates - capital : Abu Dhabi
+pays : Afghanistan - capital : Kabul
+pays : Antigua and Barbuda - capital : St. John's
+pays : Anguilla - capital : The Valley
+pays : Albania - capital : Tirana
+pays : Armenia - capital : Yerevan
+pays : Angola - capital : Luanda
+pays : Antarctica - capital : None
+pays : Argentina - capital : Buenos Aires
+pays : American Samoa - capital : Pago Pago
+pays : Austria - capital : Vienna
+pays : Australia - capital : Canberra
+pays : Aruba - capital : Oranjestad
+pays : Åland - capital : Mariehamn
+pays : Azerbaijan - capital : Baku
+pays : Bosnia and Herzegovina - capital : Sarajevo
+pays : Barbados - capital : Bridgetown
+pays : Bangladesh - capital : Dhaka
+pays : Belgium - capital : Brussels
+pays : Burkina Faso - capital : Ouagadougou
+pays : Bulgaria - capital : Sofia
+pays : Bahrain - capital : Manama
+pays : Burundi - capital : Bujumbura
+pays : Benin - capital : Porto-Novo
+pays : Saint Barthélemy - capital : Gustavia
+pays : Bermuda - capital : Hamilton
+pays : Brunei - capital : Bandar Seri Begawan
+pays : Bolivia - capital : Sucre
+pays : Bonaire - capital : Kralendijk
+pays : Brazil - capital : Brasília
+pays : Bahamas - capital : Nassau
+pays : Bhutan - capital : Thimphu
+pays : Bouvet Island - capital : None
+pays : Botswana - capital : Gaborone
+pays : Belarus - capital : Minsk
+pays : Belize - capital : Belmopan
+pays : Canada - capital : Ottawa
+pays : Cocos [Keeling] Islands - capital : West Island
+pays : Democratic Republic of the Congo - capital : Kinshasa
+pays : Central African Republic - capital : Bangui
+pays : Republic of the Congo - capital : Brazzaville
+pays : Switzerland - capital : Bern
+pays : Ivory Coast - capital : Yamoussoukro
+pays : Cook Islands - capital : Avarua
+pays : Chile - capital : Santiago
+pays : Cameroon - capital : Yaoundé
+pays : China - capital : Beijing
+pays : Colombia - capital : Bogotá
+pays : Costa Rica - capital : San José
+pays : Cuba - capital : Havana
+pays : Cape Verde - capital : Praia
+pays : Curacao - capital : Willemstad
+pays : Christmas Island - capital : Flying Fish Cove
+pays : Cyprus - capital : Nicosia
+pays : Czech Republic - capital : Prague
+pays : Germany - capital : Berlin
+pays : Djibouti - capital : Djibouti
+pays : Denmark - capital : Copenhagen
+pays : Dominica - capital : Roseau
+pays : Dominican Republic - capital : Santo Domingo
+pays : Algeria - capital : Algiers
+pays : Ecuador - capital : Quito
+pays : Estonia - capital : Tallinn
+pays : Egypt - capital : Cairo
+pays : Western Sahara - capital : Laâyoune / El Aaiún
+pays : Eritrea - capital : Asmara
+pays : Spain - capital : Madrid
+pays : Ethiopia - capital : Addis Ababa
+pays : Finland - capital : Helsinki
+pays : Fiji - capital : Suva
+pays : Falkland Islands - capital : Stanley
+pays : Micronesia - capital : Palikir
+pays : Faroe Islands - capital : Tórshavn
+pays : France - capital : Paris
+pays : Gabon - capital : Libreville
+pays : United Kingdom - capital : London
+pays : Grenada - capital : St. George's
+pays : Georgia - capital : Tbilisi
+pays : French Guiana - capital : Cayenne
+pays : Guernsey - capital : St Peter Port
+pays : Ghana - capital : Accra
+pays : Gibraltar - capital : Gibraltar
+pays : Greenland - capital : Nuuk
+pays : Gambia - capital : Bathurst
+pays : Guinea - capital : Conakry
+pays : Guadeloupe - capital : Basse-Terre
+pays : Equatorial Guinea - capital : Malabo
+pays : Greece - capital : Athens
+pays : South Georgia and the South Sandwich Islands - capital : Grytviken
+pays : Guatemala - capital : Guatemala City
+pays : Guam - capital : Hagåtña
+pays : Guinea-Bissau - capital : Bissau
+pays : Guyana - capital : Georgetown
+pays : Hong Kong - capital : Hong Kong
+pays : Heard Island and McDonald Islands - capital : None
+pays : Honduras - capital : Tegucigalpa
+pays : Croatia - capital : Zagreb
+pays : Haiti - capital : Port-au-Prince
+pays : Hungary - capital : Budapest
+pays : Indonesia - capital : Jakarta
+pays : Ireland - capital : Dublin
+pays : Israel - capital : None
+pays : Isle of Man - capital : Douglas
+pays : India - capital : New Delhi
+pays : British Indian Ocean Territory - capital : None
+pays : Iraq - capital : Baghdad
+pays : Iran - capital : Tehran
+pays : Iceland - capital : Reykjavik
+pays : Italy - capital : Rome
+pays : Jersey - capital : Saint Helier
+pays : Jamaica - capital : Kingston
+pays : Jordan - capital : Amman
+pays : Japan - capital : Tokyo
+pays : Kenya - capital : Nairobi
+pays : Kyrgyzstan - capital : Bishkek
+pays : Cambodia - capital : Phnom Penh
+pays : Kiribati - capital : Tarawa
+pays : Comoros - capital : Moroni
+pays : Saint Kitts and Nevis - capital : Basseterre
+pays : North Korea - capital : Pyongyang
+pays : South Korea - capital : Seoul
+pays : Kuwait - capital : Kuwait City
+pays : Cayman Islands - capital : George Town
+pays : Kazakhstan - capital : Astana
+pays : Laos - capital : Vientiane
+pays : Lebanon - capital : Beirut
+pays : Saint Lucia - capital : Castries
+pays : Liechtenstein - capital : Vaduz
+pays : Sri Lanka - capital : Colombo
+pays : Liberia - capital : Monrovia
+pays : Lesotho - capital : Maseru
+pays : Lithuania - capital : Vilnius
+pays : Luxembourg - capital : Luxembourg
+pays : Latvia - capital : Riga
+pays : Libya - capital : Tripoli
+pays : Morocco - capital : Rabat
+pays : Monaco - capital : Monaco
+pays : Moldova - capital : Chişinău
+pays : Montenegro - capital : Podgorica
+pays : Saint Martin - capital : Marigot
+pays : Madagascar - capital : Antananarivo
+pays : Marshall Islands - capital : Majuro
+pays : Macedonia - capital : Skopje
+pays : Mali - capital : Bamako
+pays : Myanmar [Burma] - capital : Naypyitaw
+pays : Mongolia - capital : Ulan Bator
+pays : Macao - capital : Macao
+pays : Northern Mariana Islands - capital : Saipan
+pays : Martinique - capital : Fort-de-France
+pays : Mauritania - capital : Nouakchott
+pays : Montserrat - capital : Plymouth
+pays : Malta - capital : Valletta
+pays : Mauritius - capital : Port Louis
+pays : Maldives - capital : Malé
+pays : Malawi - capital : Lilongwe
+pays : Mexico - capital : Mexico City
+pays : Malaysia - capital : Kuala Lumpur
+pays : Mozambique - capital : Maputo
+pays : Namibia - capital : Windhoek
+pays : New Caledonia - capital : Noumea
+pays : Niger - capital : Niamey
+pays : Norfolk Island - capital : Kingston
+pays : Nigeria - capital : Abuja
+pays : Nicaragua - capital : Managua
+pays : Netherlands - capital : Amsterdam
+pays : Norway - capital : Oslo
+pays : Nepal - capital : Kathmandu
+pays : Nauru - capital : Yaren
+pays : Niue - capital : Alofi
+pays : New Zealand - capital : Wellington
+pays : Oman - capital : Muscat
+pays : Panama - capital : Panama City
+pays : Peru - capital : Lima
+pays : French Polynesia - capital : Papeete
+pays : Papua New Guinea - capital : Port Moresby
+pays : Philippines - capital : Manila
+pays : Pakistan - capital : Islamabad
+pays : Poland - capital : Warsaw
+pays : Saint Pierre and Miquelon - capital : Saint-Pierre
+pays : Pitcairn Islands - capital : Adamstown
+pays : Puerto Rico - capital : San Juan
+pays : Palestine - capital : None
+pays : Portugal - capital : Lisbon
+pays : Palau - capital : Melekeok
+pays : Paraguay - capital : Asunción
+pays : Qatar - capital : Doha
+pays : Réunion - capital : Saint-Denis
+pays : Romania - capital : Bucharest
+pays : Serbia - capital : Belgrade
+pays : Russia - capital : Moscow
+pays : Rwanda - capital : Kigali
+pays : Saudi Arabia - capital : Riyadh
+pays : Solomon Islands - capital : Honiara
+pays : Seychelles - capital : Victoria
+pays : Sudan - capital : Khartoum
+pays : Sweden - capital : Stockholm
+pays : Singapore - capital : Singapore
+pays : Saint Helena - capital : Jamestown
+pays : Slovenia - capital : Ljubljana
+pays : Svalbard and Jan Mayen - capital : Longyearbyen
+pays : Slovakia - capital : Bratislava
+pays : Sierra Leone - capital : Freetown
+pays : San Marino - capital : San Marino
+pays : Senegal - capital : Dakar
+pays : Somalia - capital : Mogadishu
+pays : Suriname - capital : Paramaribo
+pays : South Sudan - capital : Juba
+pays : São Tomé and Príncipe - capital : São Tomé
+pays : El Salvador - capital : San Salvador
+pays : Sint Maarten - capital : Philipsburg
+pays : Syria - capital : Damascus
+pays : Swaziland - capital : Mbabane
+pays : Turks and Caicos Islands - capital : Cockburn Town
+pays : Chad - capital : N'Djamena
+pays : French Southern Territories - capital : Port-aux-Français
+pays : Togo - capital : Lomé
+pays : Thailand - capital : Bangkok
+pays : Tajikistan - capital : Dushanbe
+pays : Tokelau - capital : None
+pays : East Timor - capital : Dili
+pays : Turkmenistan - capital : Ashgabat
+pays : Tunisia - capital : Tunis
+pays : Tonga - capital : Nuku'alofa
+pays : Turkey - capital : Ankara
+pays : Trinidad and Tobago - capital : Port of Spain
+pays : Tuvalu - capital : Funafuti
+pays : Taiwan - capital : Taipei
+pays : Tanzania - capital : Dodoma
+pays : Ukraine - capital : Kiev
+pays : Uganda - capital : Kampala
+pays : U.S. Minor Outlying Islands - capital : None
+pays : United States - capital : Washington
+pays : Uruguay - capital : Montevideo
+pays : Uzbekistan - capital : Tashkent
+pays : Vatican City - capital : Vatican City
+pays : Saint Vincent and the Grenadines - capital : Kingstown
+pays : Venezuela - capital : Caracas
+pays : British Virgin Islands - capital : Road Town
+pays : U.S. Virgin Islands - capital : Charlotte Amalie
+pays : Vietnam - capital : Hanoi
+pays : Vanuatu - capital : Port Vila
+pays : Wallis and Futuna - capital : Mata-Utu
+pays : Samoa - capital : Apia
+pays : Kosovo - capital : Pristina
+pays : Yemen - capital : Sanaa
+pays : Mayotte - capital : Mamoudzou
+pays : South Africa - capital : Pretoria
+pays : Zambia - capital : Lusaka
+pays : Zimbabwe - capital : Harare
