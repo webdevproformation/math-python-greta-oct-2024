@@ -41,5 +41,4 @@ créer le fichier 12-exo.py
 # article2  => valeurs des paramètres = "un étudiants" / "exemple article" / 15 / "utiliser une class au quotidien" 
 
 exécuter la méthode render pour l'article1 et l'article2
-
 """
