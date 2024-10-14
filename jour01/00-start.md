@@ -20,9 +20,9 @@ Python
 - 10/10/24  Malik HARRIZ	Greta	AQ	Python	LEVALLOIS-PERRET	Présent
 - 11/10/24  Malik HARRIZ	Greta	AQ	Python	LEVALLOIS-PERRET	Présent
 - 14/10/24	Malik HARRIZ	Greta	AQ	Python	LEVALLOIS-PERRET	Présent
-- 28/10/24	Malik HARRIZ	Greta	AQ	Python	LEVALLOIS-PERRET	Présent
-- 29/10/24	Malik HARRIZ	Greta	AQ	Python	LEVALLOIS-PERRET	Présent
-- 30/10/24	Malik HARRIZ	Greta	AQ	Prépa TOSA Python Présentiel distanciel
+- 28/10/24	Malik HARRIZ	Greta	AQ	Python	LEVALLOIS-PERRET	Présent - qcm eval
+- 29/10/24	Malik HARRIZ	Greta	AQ	Python	LEVALLOIS-PERRET	Présent 
+- 30/10/24	Malik HARRIZ	Greta	AQ	Prépa TOSA Python Présentiel distanciel - eval 
 
 
 # toutes les notes de cours vont être partagées sur Github ET / OU DISCORD
