@@ -30,3 +30,24 @@ print(personne2._age)
 print(personne2._Personne__competences)
 
 # via le constructeur il va être possible de créer des objets ayant les mêmes propriétés MAIS dont les valeurs sont différentes  
+
+
+"""
+# créer un nouveau fichier 11-exo.py
+
+# class Exo
+# 3 propriétés publiques
+# duree => chiffre entier
+# enonce => string
+# note => chiffre entier
+
+# méthode constructeur 
+# 3 paramètres duree // enonce // note
+# initialiser les 3 propriétés de la class
+
+# créer un premier exercice exo1 => duree = 5 / enoncé : "créer une class" / note = 3
+# créer un deuxième exercice exo2 => duree = 4 / enoncé : "instancier une class" / note = 2
+
+afficher les notes de l'exo1 et exo2
+
+"""
