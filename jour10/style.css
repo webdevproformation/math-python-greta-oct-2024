@@ -155,7 +155,7 @@ header li{
 
 #possibilites article{
     border-radius: 10px;
-    height: 200px;
+    height: 250px;
     background-size: cover;
 }
 #possibilites article:first-child{
@@ -236,6 +236,13 @@ header li{
     border-radius: 10px;
     color:white; 
     font-size: 0.8rem;
+    border:none;
+}
+
+#contact input[type=submit]:hover{
+    background: red;
+    transform: scale(1.2); /* https://caniuse.com/ */
+    cursor: pointer;
 }
 
 /*
