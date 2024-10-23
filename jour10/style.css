@@ -59,3 +59,21 @@ header li{
     font-size: 0.9rem;
     margin-left: 20px;
 }
+
+/* partie hero  */
+
+/* ajouter une image COMME image de fond d'une balise html SUR la balise section qui a l'id main_image */
+
+#main_image{
+    background: url("img/main.jpg"); /* sélectionner l'image à utiliser comme fond (background) */
+    background-size: contain; /*prend la hauteur de 350px  */
+    background-repeat:no-repeat; /* pas de répétition */
+    background-position: center center; /* centrer dans la zone */
+    height: 350px;
+
+    /* je veux centrer le wrapper qui contient le h2 et le a horizontalement et verticalement dans la zone ayant le fond display flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
