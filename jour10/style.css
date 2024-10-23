@@ -1,0 +1,23 @@
+/*reset
+remise à zéro 
+enlever tout le css par défaut des balises html 
+marge / gras / soulignement / couleur bleu / empattement */
+
+body{
+    /* enlèver tous les empattements de toutes les textes h1 h2 p li
+    */
+    font-family: sans-serif; 
+}
+body, h1, h2, h3, p , ul, li {
+    /*enlever toutes les espaces internes externes de toutes les principales balises */
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+    /*enlever les puces devant les éléments d'une liste */ 
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color : black; 
+}

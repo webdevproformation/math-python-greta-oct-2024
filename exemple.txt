@@ -1,0 +1,1905 @@
+Horodateur
+
+
+Adresse e-mail
+
+
+Score
+
+
+Prénom NOM
+
+
+Total/20
+
+
+Quel est le but principal d’un algorithme ?
+
+
+Note /1
+
+
+Quel mot-clé est utilisé pour afficher un message à l’utilisateur en pseudo-code ?
+
+
+Note /1
+
+
+Quel mot-clé est utilisé pour une condition en pseudo-code ?
+
+
+Note /1
+
+
+Écrivez un algorithme en pseudo-code qui contient 3 variables, qui calcule la moyenne de ces trois nombres, et affiche le résultat.
+("écrire le PSEUDO CODE ci dessous en saut des lignes")
+
+
+Note /3
+
+
+Écrivez un algorithme en pseudo-code qui contient une variable x stockant la valeur 324, vérifie si ce nombre est pair ou impair, et affiche le résultat.
+("écrire le PSEUDO CODE ci dessous en saut des lignes")
+
+
+Note /4
+
+
+Écrivez un algorithme en pseudo-code qui contient une variable  N  égale à 220, calcule la somme des nombres de 1 à ( N inclu), et affiche le résultat. 
+("écrire le PSEUDO CODE ci dessous en saut des lignes")
+
+
+Note /4
+
+
+Écrivez un algorithme en pseudo-code qui contient 3 variable : 
+a = 1, 
+b = 2 et 
+c = 3, 
+cet algorithme compare ces nombres pour trouver le plus grand, et affiche le résultat.
+("écrire le PSEUDO CODE ci dessous en saut des lignes") 
+
+
+Note /4
+
+
+Écrivez un algorithme en pseudo-code qui demande à l’utilisateur de saisir un nombre entier positif ( N ), calcule la factorielle de ( N ) (notée ( N! )), et affiche le résultat.
+("écrire le PSEUDO CODE ci dessous en saut des lignes") 
+
+
+Note /1
+
+
+Écrivez un algorithme en pseudo-code qui contient la variable N = 23 et vérifie si ce nombre est un nombre premier. Un nombre premier est un nombre qui n’a que deux diviseurs : 1 et lui-même.
+("écrire le PSEUDO CODE ci dessous en saut des lignes") 
+
+
+Note /1
+
+
+10/10/2024 12:26:06
+
+
+benayedhicham@gmail.com
+
+
+3 / 20
+
+
+Hichem BEN AYED
+
+
+20
+
+
+Résoudre un problème de manière structurée
+
+
+1
+
+
+ÉCRIRE
+
+
+1
+
+
+SI
+
+
+1
+
+
+START
+
+a = 10
+b = 15
+c = 20
+somme = a + b + c
+moyenne = somme / 3
+
+ECRIRE (moyenne)
+
+END
+
+
+3
+
+
+START
+
+x = 324
+SI x % 2 != 0 :
+ECRIRE ("Nombre impair")
+SINON :
+ECRIRE ("Nombre pair")
+
+END
+
+
+4
+
+
+START
+
+N = 220
+somme = 0
+BOUCLE i 0..221 +1 :
+somme = somme + i
+ECRIRE (somme)
+
+END
+
+
+4
+
+
+START
+
+a = 1
+b = 2
+c = 3
+
+SI a > b ET a > c :
+ECRIRE (a)
+SINON SI b > a ET b > c :
+ECRIRE (b)
+SINON :
+ECRIRE (c)
+
+END
+
+
+4
+
+
+START
+
+N = ECRIRE ("Saisir un nombre positif)
+SI N < 0 :
+N = ECRIRE ("Saisir un nombre positif)
+factorielle = 1
+BOUCLE i 1..N+1 +1 :
+factorielle = factorielle * i
+ECRIRE (factorielle)
+
+END
+
+
+1
+
+
+START
+
+N = 23
+compteur = 0
+BOUCLE i 1..N+1 +1 :
+SI N % i != 0 :
+compteur += 1
+SI compteur == 2 :
+ECRIRE ("nombre premier)
+SINON :
+ECRIRE ("nombre non premier)
+
+END
+
+
+1
+
+
+10/10/2024 12:31:42
+
+
+alexander.alla@outlook.com
+
+
+3 / 20
+
+
+Alexanter ALLA
+
+
+19
+
+
+Résoudre un problème de manière structurée
+
+
+1
+
+
+ÉCRIRE
+
+
+1
+
+
+SI
+
+
+1
+
+
+START
+a = 1
+b = 2
+c = 3
+moyenne = (a + b + c) / 3
+ECRIRE moyenne
+END
+
+
+3
+
+
+START
+x = 324
+SI x%2 == 0
+ECRIRE "le nombre " + x + "est pair"
+SINON
+ECRIRE "le nombre " +x + "est impair"
+END
+
+
+4
+
+
+START
+n = 220
+somme = 0
+BOUCLE i 1 .. n AUGMENTE +1
+somme = somme + i
+ECRIRE somme
+END
+
+
+4
+
+
+START
+a=1
+b=2
+c=3
+SI a>b ET a>c
+ECRIRE a + " est le plus grand nombre"
+SI b>a ET b>c
+ECRIRE b + " est le plus grand nombre"
+SI c>a ET c>b
+ECRIRE c + " est le plus grand nombre"
+END
+
+
+4
+
+
+START 
+num = INPUT "Saisir un nombre positif entier"
+factorielle = 0
+BOUCLE i 1 .. num AUGMENTE +1
+factoriel + factoriel + i
+
+ECRIRE "La factorielle de nombre " + num + "est " + factorielle
+END
+
+
+0
+
+
+START
+N=23
+premier = FALSE
+BOUCLE i 2 .. N-1 AUGMENTE +1
+SI N%i == 0
+premier = TRUE
+
+SI premier == TRUE
+ECRIRE N + " est un nombre premier"
+SI premier == FALSE
+ECRIRE N + " n'est pas un nombre premier"
+END 
+
+
+1
+
+
+10/10/2024 12:33:22
+
+
+kevinc.catan@gmail.com
+
+
+1 / 20
+
+
+catan kevin
+
+
+9
+
+
+Écrire des programmes en langage machine
+
+
+0
+
+
+AFFICHER
+
+
+0
+
+
+SI
+
+
+1
+
+
+debut 
+
+a = 1
+b = 2
+c = 3
+
+moyenne = ( a * b * c ) / 3
+afficher = (moyenne)
+
+fin
+
+
+0
+
+
+Debut 
+
+x = 324
+
+si x%2 == 0 :
+
+afficher (« paire»)
+
+sinon: 
+
+afficher (« impaire )
+
+
+Fin
+
+
+4
+
+
+N =  220
+
+
+0
+
+
+debut
+a = 1,
+b = 2 et
+c = 3,
+plus_grand = 0
+
+Plus_grand = 0
+
+SI a > b and a > c 
+Afficher ( "Plus_grand =" a") 
+elif b > a and b > c
+Afficher ( "Plus_grand =" b")
+elif c > a and c > b
+Afficher ( "Plus_grand =" c")
+
+Print (Plus_grand )
+
+Fin
+
+
+4
+
+
+N = int(input ("saisir un nombre entier positif "))
+
+calcul factorielle .......
+
+Si N < 0 
+afficher ("merci de saisir un nombre positif)
+
+
+
+0
+
+
+....
+
+
+0
+
+
+10/10/2024 12:44:23
+
+
+georges.dreiding@sfr.fr
+
+
+3 / 20
+
+
+Georges Dreiding
+
+
+19
+
+
+Résoudre un problème de manière structurée
+
+
+1
+
+
+ÉCRIRE
+
+
+1
+
+
+SI
+
+
+1
+
+
+START
+
+a = 1
+b = 2
+c = 3
+
+m = ( a + b + c ) / 3
+
+ECRIRE "La moyenne de " + a + ", " + b + ", " + c + " vaut " + m + " ."
+
+END
+
+
+3
+
+
+START
+
+SI ( x % 2 == 0 )
+ECRIRE "La valeur " + x + " est paire".
+SINON
+ECRIRE "La valeur " + x + " est impaire".
+FINSI
+
+END
+
+
+4
+
+
+START
+
+N = 220
+S = 0
+
+BOUCLE i 1 .. N AUGMENTE +1
+S = S + i
+
+ECRIRE "La somme des nombres de 1 jusqu'à " + N + " vaut " + S +"."
+
+END
+
+
+4
+
+
+START
+
+a = 1
+b = 2
+c = 3
+
+max = a
+
+SI b > max
+max = b
+
+SI c > max
+max = c
+
+ECRIRE "Des trois valeurs " + a + ", " + b + ", " + c + " la plus grande est " + max + "."
+
+END
+
+
+4
+
+
+START
+
+VP = TRUE
+VN = TRUE
+
+BOUCLE TANT QUE ( VP == TRUE OU VN == TRUE )
+ECRIRE "Veuillez saisir un chiffre entier positif s'il vous plait :"
+LIRE N
+SI N >= 0
+VP = FALSE
+SINON
+ECRIRE "Votre chiffre n'est pas positif !"
+SI N == "1" OU N == "2" OU N == "3" OU N == "4" OU N == "5" OU N == "6" OU N == "7" OU N == "8" OU N == "9"
+VN = FALSE
+SINON
+ECRIRE "Ce n'est pas un chiffre !"
+
+F = 1
+
+BOUCLE i 1 .. N AUGMENTE +1
+F = F x i
+
+# Si N vaut 0 alors F aura bien la valeur adéquate : 1.
+
+ECRIRE "La fctorielle de " + N + " est " + F +"."
+
+END
+
+
+0
+
+
+START
+
+N = 23
+
+P = TRUE
+
+BOUCLE i 2 .. N - 1 AUGMENTE +1
+SI ( N % i == 0 )
+P = FALSE
+
+SI ( P == TRUE )
+ECRIRE "La valeur " + N + " est un chiffre/nombre premier."
+SINON
+ECRIRE "La valeur " + N + " n'est pas un chiffre/nombre premier."
+
+END
+
+
+1
+
+
+10/10/2024 12:46:14
+
+
+chovino.stef97@gmail.com
+
+
+3 / 20
+
+
+Mathieu CHOVINO
+
+
+10
+
+
+Résoudre un problème de manière structurée
+
+
+1
+
+
+ÉCRIRE
+
+
+1
+
+
+SI
+
+
+1
+
+
+Start
+
+a = 1
+b = 2
+c = 3
+
+d = (a+b+c) / 3
+
+ECRIRE(d)
+
+End
+
+
+3
+
+
+Start
+
+x =324
+
+SI x%2 == 0
+
+ECRIRE(x est un nombre pair)
+
+SINON
+ECRIRE( x est un nombre impair)
+
+
+End
+
+
+4
+
+
+je ne sais pas
+
+
+0
+
+
+je ne sais pas
+
+
+0
+
+
+je ne sais  pas
+
+
+0
+
+
+je ne sais pas
+
+
+0
+
+
+10/10/2024 12:47:23
+
+
+julienhieuemploi@gmail.com
+
+
+2 / 20
+
+
+julien hieu
+
+
+4
+
+
+Gérer des bases de données
+
+
+0
+
+
+ÉCRIRE
+
+
+1
+
+
+SI
+
+
+1
+
+
+START
+a=5
+b=6
+c=b+a /2
+ECRIRE C
+END
+
+
+0
+
+
+START
+x=324
+SI x /2=162
+ECRIRE PAIR
+SINON ECRIRE IMPAIR
+ÉCRIRE X
+END
+
+
+0
+
+
+START N=220                                                                                                                           
+BOUCLE I 1..220 AUGMENTE+1 
+BOUCLE  nombre depart 1=> BOUCLE 
+nombre de fin =>220 
+RESULTAT =(I +N) 
+ECRIRE(RESULTAT) 
+END
+
+
+2
+
+
+START
+a=1
+
+b=2
+
+c=3
+nombre_grand=[a,b,c]
+boucle 
+END
+
+
+
+0
+
+
+START                                                                                                                                         
+SAISIR.(N) 
+POUR N 
+RESULTAT ="N! x" {N} ={N *N}" 
+END
+
+
+0
+
+
+START 
+N=23
+SI N 
+END
+
+
+0
+
+
+10/10/2024 12:53:36
+
+
+bacarydiakite19@gmail.com
+
+
+1 / 20
+
+
+Bacary DIAKITE
+
+
+12
+
+
+Écrire des programmes en langage machine
+
+
+0
+
+
+AFFICHER
+
+
+0
+
+
+SI
+
+
+1
+
+
+START
+a = 1
+b = 2
+c = 3
+moyenne = (a + b + c ) / 3
+AFFICHER moyenne
+END
+
+
+
+
+3
+
+
+START
+Variable x, division
+x = 324
+division= x / 2
+SI division * 2 = x ALORS
+AFFICHER "Le nombre est pair"
+else
+AFFICHER "Le nombre est impair"
+END
+
+
+0
+
+
+START
+Variable N, somme, i
+N = 220
+somme = 0
+for i in range 1 à N faire
+somme = somme + i
+AFFICHER somme
+END
+
+
+4
+
+
+START
+a = 1
+b = 2
+c = 3
+SI a > b ET a > c alors
+AFFICHER "Le plus grand nombre est :" a
+SINON SI b > a ET b > c alors
+AFFICHER "Le plus grand nombre est :" b
+SINON
+AFFICHER "Le plus grand nombre est :", c
+END
+
+
+
+4
+
+
+???
+
+
+0
+
+
+???
+
+
+0
+
+
+10/10/2024 12:55:40
+
+
+elias.mainokaid@gmail.com
+
+
+3 / 20
+
+
+Kaid Maino
+
+
+11
+
+
+Résoudre un problème de manière structurée
+
+
+1
+
+
+ÉCRIRE
+
+
+1
+
+
+SI
+
+
+1
+
+
+variable : a, b, c
+a = 9
+b = 11
+c = 14
+moyenne = a + b + c / 3
+ECRIRE "moyenne"
+
+
+0
+
+
+x = 324
+SI le modulo de x est 0 alors :
+ECRIRE "x est pair"
+sinon
+ECRIRE "x est impair"
+fin de si
+
+
+3
+
+
+N = 220
+pour i allant de 1 à N:
+résultat = faire d'adition de 1 + i
+fin de pour
+ECRIRE résultat
+
+
+0
+
+
+a= 1
+b= 2
+c= 3
+SI a est supérieur ou égal à b ET a est supérieur ou égal à c
+ECRIRE "a est le plus grand
+SINON SI b est supérieur ou égal à a ET b est supérieur ou égale à c
+ECRIRE "b est le plus grand "
+SINON ECRIRE "c est le plus grand
+
+
+4
+
+
+N = SAISIR "donner un chiffre positif"
+Factoriel = 1
+POUR i allant de 1 à N
+Factoriel = Factoriel fois i
+ECRIRE Factoriel
+
+
+1
+
+
+N = 23
+SI le reste de la division euclidienne de 23 est 1
+ECRIRE "N est un nombre premier"
+SINON
+ECRIRE "N n'est pas premier"
+
+
+0
+
+
+10/10/2024 12:56:43
+
+
+dussiel.kevin@yahoo.fr
+
+
+2 / 20
+
+
+kevin dussiel
+
+
+18
+
+
+Résoudre un problème de manière structurée
+
+
+1
+
+
+AFFICHER
+
+
+0
+
+
+SI
+
+
+1
+
+
+DEBUT
+
+a = 1
+b = 2
+c = 3
+
+moyenne = (a + b + c) / 3
+
+AFFICHER "La moyenne est :", moyenne
+
+FIN
+
+
+
+3
+
+
+DEBUT
+
+x = 324
+
+SI x MOD 2 = 0 ALORS
+AFFICHER "Le nombre est pair"
+SINON
+AFFICHER "Le nombre est impair"
+FIN SI
+
+FIN
+
+
+
+3
+
+
+DEBUT
+
+N = 220
+somme = 0
+
+POUR i DE 1 À N FAIRE
+somme = somme + i
+FIN POUR
+
+AFFICHER "La somme des i de 1 à", N, "est :", somme
+
+FIN
+
+
+
+4
+
+
+DEBUT 
+
+a = 1
+b = 2
+c = 3
+
+SI a >= b ET a >= c ALORS
+plusGrand = a
+SINON SI b >= c ET b >= a ALORS
+plusGrand = b
+SINON
+plusGrand = c
+FIN SI
+
+AFFICHER "Le plus grand nombre est", plusGrand
+
+FIN
+
+
+
+4
+
+
+DEBUT
+
+DEFINIR N = 5
+factorielle = 1 
+
+POUR i DE 1 À N FAIRE
+factorielle = factorielle * i
+FIN POUR
+
+AFFICHER "La factorielle de", N, "est", factorielle
+
+FIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+
+
+
+DEBUT
+
+N = 23
+EstPremier = VRAI
+
+POUR i DE 2 À 22 FAIRE
+SI N MOD i = 0 ALORS
+EstPremier = FAUX
+SORTIR DE LA BOUCLE
+FIN SI
+FIN POUR
+
+SI EstPremier ALORS
+AFFICHER "N est un nombre premier"
+SINON
+AFFICHER "N n'est pas un nombre premier"
+FIN SI
+
+FIN
+
+
+
+
+
+1
+
+
+10/10/2024 12:57:00
+
+
+lara_77mc@hotmail.fr
+
+
+3 / 20
+
+
+Lara MUGNIER-SUGIC
+
+
+4
+
+
+Résoudre un problème de manière structurée
+
+
+1
+
+
+ÉCRIRE
+
+
+1
+
+
+SI
+
+
+1
+
+
+START
+a = 20
+b = 10
+c = 8
+
+d = a + b + c / 2
+
+ECRIRE (d)
+
+END
+
+
+0
+
+
+START
+x = 324
+
+SI x == 324
+ECRIRE ("ce nombre est un nombre pair")
+
+SINON
+ECRIRE ("ce nombre est un nombre impair")
+
+END
+
+
+0
+
+
+START
+
+N = 220
+BOUCLE i 0 .. 10 AUGMENTE + 1
+SI N [i] + 1
+N = + 1
+END
+
+
+
+0
+
+
+START
+
+a = 1
+b = 2
+c = 3
+
+SI a > b ET b > c
+TRUE ET FALSE
+FALSE
+a < b OU c < b
+FALSE OU TRUE
+TRUE
+
+ECRIRE (c)
+
+
+END
+
+
+1
+
+
+START
+
+N = 1
+
+positif = 1
+negatif = 0
+
+SI N == 1
+ECRIRE(N)
+SINON 
+ECRIRE("ce n'est pas un nombre positif")
+END
+
+
+0
+
+
+START
+N = 23
+
+SI N / 23
+OU N / 1
+
+END
+
+
+0
+
+
+10/10/2024 12:57:30
+
+
+nada.magdy22@yahoo.com
+
+
+2 / 20
+
+
+nada ABDELBASET
+
+
+14
+
+
+Résoudre un problème de manière structurée
+
+
+1
+
+
+AFFICHER
+
+
+0
+
+
+SI
+
+
+1
+
+
+start
+
+a=1
+B=2
+c=3
+
+moyenne (nombre1 + nombre2 + nombre3) / 3
+Afficher ( moyenne )
+
+end
+
+
+0
+
+
+start
+x=324
+
+si x mod 2 est égal 0 alors 
+
+afficher le nombre pair
+sinon
+afficher le nombre impair
+
+end
+
+
+4
+
+
+start
+N=220
+
+pour i allant de 1 à N faire
+total = total + i
+
+Afficher "total des nombres de 1 à " N ", est : ", total
+
+end
+
+
+4
+
+
+srart
+
+a = 1,
+b = 2, 
+c = 3,
+
+plus_grand = a 
+
+Si b supérieur à plus_grand
+
+alors
+
+plus_grand = b
+
+Si c inférieure à plus_grand alors
+
+plus_grand = c
+
+Afficher "Le plus grand nombre est :", plus_grand
+
+end
+
+
+4
+
+
+start
+N= nombre entier positif 
+
+end
+
+
+0
+
+
+start 
+end
+
+
+0
+
+
+10/10/2024 12:58:01
+
+
+charlene.lombardi@ik.me
+
+
+2 / 20
+
+
+Charlène Lombardi
+
+
+2
+
+
+Résoudre un problème de manière structurée
+
+
+1
+
+
+AFFICHER
+
+
+0
+
+
+SI
+
+
+1
+
+
+START
+
+a = 1
+b = 2
+c = 3
+
+(a + b + c) /3 = moyenne
+
+AFFICHER moyenne
+
+END
+
+
+0
+
+
+START
+
+x = 324
+
+IF 324/2 == nombre entier
+ECRIRE 324 est un nombre pair
+
+
+END
+
+START
+
+x.list() = afficher_liste
+
+SI x[2] == 2 OR x[2] == 4 x[2] == 6 x[2] == 8
+ECRIRE 324 est un nombre pair
+
+END
+
+
+
+
+
+0
+
+
+START
+
+N = 220 
+
+calcul = 2 + 2 + 0
+
+AFFICHER calcul(4)
+
+
+END
+
+
+0
+
+
+START
+
+a = 1
+b= 2
+c = 3 
+
+SI a > b 
+FALSE
+SI a > c
+FALSE
+SI b > c
+FALSE
+
+AFFICHER c est le plus grand nombre
+
+END
+
+
+
+
+0
+
+
+START
+
+
+
+
+END
+
+
+0
+
+
+START
+
+
+END
+
+
+0
+
+
+10/10/2024 13:06:00
+
+
+shr.sanjay0@gmail.com
+
+
+2 / 20
+
+
+Sanjay Shrestha
+
+
+15
+
+
+Résoudre un problème de manière structurée
+
+
+1
+
+
+AFFICHER
+
+
+0
+
+
+SI
+
+
+1
+
+
+START 
+a = 1 
+b = 2
+c = 3
+moyeene = ( a + b + c ) / 2
+
+AFFICHER (moyeene)
+
+END
+
+
+
+
+0
+
+
+START
+x = 324 
+
+SI x % 2 == 0:
+AFFICHER " x est pair."
+SINON:
+AFFICHER " x est impair."
+
+END
+
+
+4
+
+
+START 
+N = 220
+somme = 0
+
+
+POUR i de 1 a N:
+somme = somme + i
+
+AFFICHER" la somme des nombres 1 a" + N + "est" + somme
+
+END
+
+
+4
+
+
+START 
+a = 1
+b = 2
+c = 3
+
+numero_grand = a
+
+SI b > numero_grand ALOS,
+numero_grand = b 
+
+FIN SI 
+
+SI c > numero_grand ALORS, 
+numero_grand = c
+
+AFFICHER "le plus grand numero est : " + numero_grand 
+
+END 
+
+
+
+
+
+4
+
+
+START 
+factorielle = 1 
+
+AFFICHER " Entrez un entier positif (N) :"
+
+
+SI n < 0 Alors
+AFFICHER "Veuillez entrer un entier positif."
+SINON:
+POUR i de 1 a N FAIRE
+factorielle = factorielle * i 
+
+
+AFFICHER "la factorielle de " + N + "est" + factorielle
+
+
+END
+
+
+
+
+
+
+
+1
+
+
+
+
+
+
+
+
+
+0
+
+
+10/10/2024 13:08:10
+
+
+hycho4940@gmail.com
+
+
+2 / 20
+
+
+Hae Yoon Cho
+
+
+5
+
+
+Écrire des programmes en langage machine
+
+
+0
+
+
+ÉCRIRE
+
+
+
+
+
+SI
+
+
+1
+
+
+START
+variable = (int("a"), int("b"), int("c"))
+moyen = (int("a"), int("b"), int("c"))/len(variable)
+print(moyen)
+END
+
+
+0
+
+
+STAR
+X = 324
+SI x%2 == 0,
+ECRIRE pair
+SI x% ==1,
+ECRIR impair
+END
+
+
+4
+
+
+START
+N = 220
+END
+
+
+
+0
+
+
+START
+a = 1
+b = 2 
+c = 3
+chiffre = [a, b, c]
+pour i allant de a à c
+si a <b,
+(T[a], T[b]) 
+si b < c,
+(T[b], T[c]) 
+si a <c,
+(T[a], T[c]) 
+
+
+
+END
+
+
+0
+
+
+START
+N = int
+resultat = [ ]
+N = [N, N-1, N-2, ..,(N-(N-1))]
+BOUCLE N 0..N-1, AUGMENT -1
+resultat = resultat*(N-1)
+END
+
+
+0
+
+
+START
+N=23
+SI N%
+END
+
+
+0
+
+
+10/10/2024 13:09:27
+
+
+jipp.manu@yahoo.fr
+
+
+2 / 20
+
+
+Emmanuelle Jippé
+
+
+2
+
+
+Résoudre un problème de manière structurée
+
+
+1
+
+
+AFFICHER
+
+
+0
+
+
+SI
+
+
+1
+
+
+
+a = 9
+b = 12
+c = 3
+
+d = a + b + c / 2
+
+
+START
+
+a = ["1"]
+b = ["2"]
+c= ["3"]
+
+Print (a + b + c /2 = d)
+
+d = (a + b + c /2)
+
+Print (d)
+
+END
+
+
+
+
+
+0
+
+
+START
+
+x = 324
+
+SI 
+
+x / 2 alors
+
+
+
+0
+
+
+Je ne sais pas ( pas eu le temps de finir)
+
+
+0
+
+
+a = 1
+b = 2
+c = 3
+
+
+START
+
+SI 
+
+a < c 
+Print (c) # TRUE
+
+SI 
+
+b > a 
+Print (b) #TRUE
+
+SI 
+
+c = a + b
+Print (c)
+
+
+c > a + b
+
+#TRUE
+
+END
+
+
+
+0
+
+
+Je ne sais pas
+
+
+0
+
+
+Je ne sais pas ( pas eu le temps de finir)
+
+
+0
+
+
