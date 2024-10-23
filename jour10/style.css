@@ -77,3 +77,65 @@ header li{
     align-items: center;
     text-align: center;
 }
+
+#main_image h2{
+    font-size: 2.2rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+#main_image a{ /* la balise a est une balise en ligne qui n'accepte par la règle margin  */
+    background: orange;
+    padding: 10px 15px;
+    display: inline-block;/*cette règle permet que la règle margin-top s'applique */
+    margin-top: 10px;
+    border-radius: 10px;
+    color:white; 
+}
+#main_image a:hover{
+    background: red;
+    transform: scale(1.2); /* https://caniuse.com/ */
+}
+
+
+/* partie centrale */
+
+#steps .wrapper{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#steps ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between; /* je veux que les éléments soient l'un à côté de l'autre même largeur ET qu'il y ait un espace identique entre chaque élément */
+    text-align: center;
+}
+
+#steps h4{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#steps h4::before{
+    content: "" ;
+    height: 40px;
+    width: 40px;
+    display: block;
+    background : url("img/steps-icon-1.png");
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+#steps #step2 h4::before{
+    background : url("img/steps-icon-2.png");
+    background-size: cover;
+}
+
+#steps #step3 h4::before{
+    background : url("img/steps-icon-3.png");
+    background-size: cover;
+}
