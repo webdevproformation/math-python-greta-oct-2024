@@ -1,46 +1,36 @@
-<!--  ! Enter Emmet qui permet de code du html plus vite  -->
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Mon_site_voyage</title>
+    <link rel="stylesheet" href="./style/css.css">
 </head>
+
 <body>
-    <!-- menu et le nom de la société -->
     <header>
         <div class="wrapper">
-            <!-- lorem3 -->
-            <h1>Lorem, ipsum dolor.</h1>
+            <h1>Agence de Voyage <span class="orange">.</span></h1>
             <nav>
-                <!-- ul>li*4>a>lorem1 
-                 1 ul qui contient 4 li qui contiennent 1 a qui contient un mot -->
                 <ul>
-                    <li><a href="">Lorem.</a></li>
-                    <li><a href="">Officia?</a></li>
-                    <li><a href="">Saepe?</a></li>
-                    <li><a href="">Quos!</a></li>
+                    <li><a href="main_image">Accueil</a></li>
+                    <li><a href="steps">Destination</a></li>
+                    <li><a href="Possibilities">Circuit</a></li>
+                    <li><a href="contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <!-- 
-        pour info => étant donné qu"il n'y a pas de balise img DONC  je dois utiliser la section avec id="main_image" pour insérer l'image 
-        partie avec l'image de fond + bouton 
-    -->
-    <section  id="main_image">
+
+    <section id="main_image">
         <div class="wrapper">
-            <!-- h2 qui contient 4 mots  
-             h2>lorem4 -->
-            <h2>Lorem ipsum <br> <strong>dolor sit.</strong></h2>
+            <h2>Organisez votre<br><strong>voyage sur mesure</strong></h2>
             <a href="#" class="button_1">Par ici</a>
         </div>
     </section>
 
-
     <section id="steps">
         <div class="wrapper">
+
             <ul>
                 <li id="step1">
                     <h4>Planifier</h4>
@@ -79,7 +69,7 @@
 
     <section id="possibilites">
         <div class="wrapper">
-            <article style="background-image: url(img/article-image-1.jpg)";>
+            <article style="background-image: url(./style/img/article-image-1.jpg)";>
                 <div class="overlay">
                     <h4>Partez en famille</h4>
                     <p><small>
@@ -90,7 +80,7 @@
                 </div>
             </article>
 
-            <article style="background-image: url(img/article-image-2.jpg)">
+            <article style="background-image: url(./style/img/article-image-2.jpg)">
                 <div class="overlay">
                     <h4>Envie de s'évader</h4>
                     <p><small>
@@ -137,6 +127,5 @@
             <div class="copyright">Copyright @ 2016. Tous droits réservés</div>
         </div>
     </footer>
-
 </body>
 </html>
