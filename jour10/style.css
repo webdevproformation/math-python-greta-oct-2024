@@ -139,3 +139,55 @@ header li{
     background : url("img/steps-icon-3.png");
     background-size: cover;
 }
+
+/**/
+
+#possibilites{
+    margin:20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+}
+#possibilites .wrapper{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#possibilites article{
+    border-radius: 10px;
+    height: 200px;
+    background-size: cover;
+}
+#possibilites article:first-child{
+    margin-right: 20px;
+}
+#possibilites .overlay{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.6);
+    padding: 30px 10px;
+    color:#333;
+    text-align:center;
+    border-radius: 10px;
+}
+#possibilites h4{
+   margin: 0;
+   font-size: 1.4rem;
+   border-bottom: 1px solid black;
+   margin-bottom: 7px;
+}
+
+#possibilites a{ /* la balise a est une balise en ligne qui n'accepte par la règle margin  */
+    background: orange;
+    padding: 10px 15px;
+    display: inline-block;/*cette règle permet que la règle margin-top s'applique */
+    margin-top: 10px;
+    border-radius: 10px;
+    color:white; 
+    font-size: 0.8rem;
+}
+#possibilites a:hover{
+    background: red;
+    transform: scale(1.2); /* https://caniuse.com/ */
+}
