@@ -4,8 +4,7 @@ enlever tout le css par défaut des balises html
 marge / gras / soulignement / couleur bleu / empattement */
 
 body{
-    /* enlèver tous les empattements de toutes les textes h1 h2 p li
-    */
+    /* enlèver tous les empattements de toutes les textes h1 h2 p li*/
     font-family: sans-serif; 
 }
 body, h1, h2, h3, p , ul, li {
@@ -20,4 +19,43 @@ ul, li{
 a{
     text-decoration: none;
     color : black; 
+}
+
+/* mise en forme de l'entête du site : menu et le nom de la société */
+
+/*je veux mettre h1 et la nav l'un à côté de l'autre 
+=> display flex SUR LA BALISE qui est le parent direct de h1 et nav => div class="wrapper"
+=> je me rends compte QUE le designeur à utiliser plusieurs FOIS class="wrapper" dans le design 
+MAIS je veux appliquer display flex QUE sur cette div 
+DONC je vais devoir utiliser un selecteur PLUS restrictif 
+je veux sélectioner la balise ayant la class wrapper QUI est dans la balise header
+*/
+
+header .wrapper {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+/* je veux mettre les li l'un à côté de l'autre display flex sur le parent direct ul */
+header ul{
+    display: flex;
+}
+
+/* décoller la balise header de la fenêtre du navigateur 
+ajouter 20 px en haut et en bas de la balise de marge interne
+0 à gauche et à droite */
+header{
+    padding: 20px 0 20px 0 ; 
+}
+/* styliser les tailles de police ET espacement */
+header h1{
+    font-size: 1.3rem;
+    margin-right: 200px;
+}
+
+header li{
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-left: 20px;
 }
