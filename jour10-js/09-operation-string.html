@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // comme pour Python, il est possible d'addition des textes les uns avec les autres 
+        // on appelle ça la concaténation 
+        // le même mécanisme existe en Javascript 
+
+        let prenom = "Alain" ;
+        let adresse = "75 rue de Paris" ;
+
+        // écrite la phase "Alain habite au 75 rue de Paris"
+
+        let phrase = prenom + " habite au " + adresse ;
+        console.log(phrase); 
+
+        // en Python, il existe une autre manière de faire de la concaténation
+        // fstring => f"{prenom} habite au {adresse}"
+        // en Javascript => template string 
+
+        // back tick => accent grave 
+        // windows AltGr + 7 
+        let phrase2 = `${prenom} habite au ${adresse}`; 
+        console.log(phrase2) ;
+    </script>
+</body>
+</html>
+
+<!-- 
+
+1 créer un nouveau fichier 10-exo.html avec une balise <script>
+2 ce fichier contient trois variables
+titre = "M"
+prenom = "John"
+nom = "Doe"
+
+3 écrire la phrase suivante dans la console :
+
+Je m'appelle Monsieur John Doe
+
+-->
