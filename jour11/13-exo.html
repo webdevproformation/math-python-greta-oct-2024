@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function aire_cercle(rayon){
+            let aire = 3.14 * rayon ** 2 ;
+            let phrase = `un cercle de rayon ${rayon} a une aire de ${aire.toFixed(0)}`;
+            return phrase ; 
+        }
+
+        let cercle1 = aire_cercle(44.5) ;
+        let cercle2 = aire_cercle(70.43) ;
+
+        console.log(cercle1);
+        console.log(cercle2);
+
+    </script>
+</body>
+</html>

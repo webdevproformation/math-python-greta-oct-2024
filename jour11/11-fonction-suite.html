@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function addition (){
+            let a = 1;
+            let b = 2 ;
+            console.log(a + b) ; 
+        }
+
+        function addition2 (){
+            let a = 2;
+            let b = 2 ;
+            console.log(a + b) ; 
+        }
+
+        function addition3 (){
+            let a = 3 ;
+            let b = 2 ;
+            console.log(a + b) ; 
+        }
+
+        // déplacer les variables a et b 
+        // au lieu de les mettre comme variable locale à la fonction
+        // les mettre comme paramètre d'une fonction 
+        // variable locale SANS valeur 
+        function addition4(a, b){
+            a + b ;
+            // console.log(a + b); 
+        }
+
+        addition4(2, 3); // au moment de l'exécution de la fonction QUE l'on attribut une valeur pour la paramètre a et une valeur pour b 
+
+        let chiffre1 = 1 ;
+        let chiffre2 = 2 ;
+        let chiffre3 = chiffre1 + chiffre2 ; 
+
+    </script>
+</body>
+</html>
