@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let etudiants = ["Alain","Céline"]; 
+
+        // CRUD 
+        // Create => ajouter une nouvelle valeur dans le tableau
+        // .append() en Python
+
+        etudiants.push("Benjamin", "Zorro"); // ajouter deux string au tableau  (à la fin)
+        console.log(etudiants); 
+
+        // ajouter à une position précise du tableau (ajouter "Charles" après Alain)
+        etudiants.splice(1, 0 , "Charles"); 
+        console.log(etudiants); 
+
+        // Read
+
+        etudiants[0]; // tableau[position]
+
+        // sélection par tranche (slice) n'existe QUE en Python (en JS n'existe PAS)
+        // etudiants[0:2]
+        // par contre vous avez la syntaxe suivante : 
+        console.log(etudiants.slice(0,2))
+
+        // Update
+
+        etudiants[0] = "Jean Pierre";  // identique avec Python 
+
+        // Delete
+        // en Python
+        // del etudiant[0]
+
+        etudiants.splice(0,1); // supprimer le 1er élément du tableau
+        console.log(etudiants); 
+
+        const notes = [10, 20,15];
+        notes.splice(0,1);
+        console.log(notes); 
+        /* delete notes[0];
+        console.log(notes);  */
+
+    </script>
+</body>
+</html>
