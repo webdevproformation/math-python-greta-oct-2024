@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        4 x 2 = 8
+        4 x 3 = 12
+        4 x 4 = 16
+        4 x 5 = 20
+        4 x 6 = 24
+        min => 2
+        max => 6 + 1
+        augmentation + 1
+        */
+        for(let i = 2 ; i < 7 ; i += 1){
+            /* 4 x 2 = 8
+            4 x 3 = 12 */
+            let resultat = i * 4  ;
+            let multiplication  = "4 x " + i + " = " + resultat ;
+            console.log(multiplication);
+            let multiplication2 = `4 x ${i} = ${resultat}` ;
+            console.log(multiplication2);
+        }
+
+    </script>
+</body>
+</html>
