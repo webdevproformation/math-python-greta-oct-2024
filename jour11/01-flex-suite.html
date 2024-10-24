@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        div{
+            border:2px solid red ;
+        }
+        p{
+            border:2px solid blue;
+        }
+        /*je veux que les p soient l'un à côté de l'autre */
+        /*je veux que les p soient l'un à côté de l'autre ET si j'arrive à la fin du parent alors revient au début de la ligne */
+        div{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between; 
+        }
+        /* par défaut la largeur des p prend la largeur du nombre de lettre dans le p */
+        p{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <!-- p*15>lorem4 -->
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Laborum accusamus tempore aspernatur?</p>
+        <p>Modi perspiciatis debitis obcaecati!</p>
+        <p>Dignissimos, molestiae? Reiciendis, neque!</p>
+        <p>Dolorum eaque corrupti magnam!</p>
+        <p>Necessitatibus delectus corrupti quibusdam?</p>
+        <p>Commodi nesciunt ipsum dolores.</p>
+        <p>Nobis itaque impedit optio.</p>
+        <p>Libero animi eum minus.</p>
+        <p>Reprehenderit aliquam quos illo!</p>
+        <p>Cum aut veniam minus?</p>
+        <p>Quidem architecto nostrum impedit?</p>
+        <p>Incidunt natus delectus sequi?</p>
+        <p>Animi qui nam a.</p>
+        <p>Accusantium expedita exercitationem quos.</p>
+    </div>
+</body>
+</html>

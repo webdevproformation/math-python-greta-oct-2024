@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        div{
+            border: 2px solid red;
+        }
+        p{
+            border:2px solid blue; 
+        }
+        /* par défaut les p sont l'uns en dessous de l'autre */
+        /* je veux changer cet mise en page => je veux que les p soient l'un à côté de l'autre 
+        => display flex sur la div */
+        div{
+            display: flex;
+            /* justify-content: space-between; */
+            /*si il reste de l'espace à droite */
+            /* alors répartir de manière égale en les p*/
+            /* justify-content: flex-end; */
+            /* si je veux que l'espace soit mis avant les p */
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <!-- p*3>lorem4 -->
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Incidunt saepe atque nostrum.</p>
+        <p>Dolores sunt eveniet repellat.</p>
+    </div>
+</body>
+</html>
