@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // if => identifique entre Python et JS 
+        // Python
+        /*
+        if 10 > 5 :
+            // traitement
+        */
+        // en Javascript 
+        if( 10 > 5 ){
+            // traitement
+            // identation en Javascript est une bonne pratique 
+            // contrairement à Python elle ne bloque pas le code 
+        }
+        
+        // même principe que sur Python
+        // si condition est false => le contenu des { } est ignoré
+        // si la condition est true => le contenu des { } est exécuté
+
+        /*
+        en Python 
+        if condition :
+            // traitement
+        elif condition2 :
+            // traitement
+        elif condition3 :
+            // ...
+        else :
+            // traitement par défaut 
+        */
+        let age = 18
+        if(age < 17){
+            // traitement
+        }else if(age < 30){
+            // traitement
+        }else if(age < 70){
+            // traitement
+        }else {
+            // traitement par défaut 
+        }
+
+        // pour info 
+        let pays = "France";
+        switch( pays )  {
+            case "Allemagne" :
+                // traitement
+                break;
+            case "France" :
+                // traitement
+                break;
+            case "Suisse"  :
+                // traitement 
+                break;
+            default : 
+                // traitement
+        }
+
+        if(pays === "Allemagne"){
+            // traitement
+        }else if(pays === "France"){
+            // traitement
+        }else if(pays === "Suisse"){
+            // traitement
+        }else{
+            // traitement
+        }
+
+    </script>
+</body>
+</html>
+<!-- 
+// créer un nouveau fichier 06-exo.html contenant une variable ville
+
+// initialiser la variable ville = "Marseille"
+
+// si ville a pour valeur Paris 
+// alors afficher dans la console "vous habitez à Paris"
+
+// si ville a pour valeur Boulogne ou Clamart ou Montrouge 
+// alors afficher dans la console "vous habitez dans le 92"
+
+// si ville a pour valeur Saint-Denis ou Aubervilliers ou Pantin
+//  alors afficher dans la console "vous habitez dans le 93"
+
+// sinon
+// afficher dans la console "vous habitez hors d'Ile de France"
+-->
