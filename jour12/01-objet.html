@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let fleurs = ["rose", "jasmin", "tulipe"]; 
+
+        let etudiant = ["Alain", "DOE" , 19 , 32 , true , 75000 , ["PHP", "JS"]] ; 
+        // si on crée un tableau qui contient des valeurs de type différents 
+        // limite des tableaux => chaque valeur n'est accessible QUE via sa position
+        // ET je ne sais pas QUEL EST le sens de la valeur 
+        // => votre code n'est facilement MAINTENABLE (facile à modifier / relire / améliorer)
+        // au lieu de choisir un tableau 
+        // => Python => dictionnaire / en JS objet 
+        let etudiant_1 = {
+            prenom : "Alain" ,
+            nom : "DOE" ,
+            age : 19 ,
+            duree : 32 ,
+            is_inscrit : true ,
+            cp : 75000 ,
+            sujets : ["PHP", "JS"]
+        } ;
+
+        // python pour récupérer une valeur stockée dans un dictionnaire
+        // etudiant_1["prenom"]
+        // etudiant_1.get("prenom")
+
+        // en javascript voici la syntaxe à utiliser
+        etudiant_1.prenom 
+    </script>
+</body>
+</html>
+<!-- 
+    créer le fichier 02-exo.html
+    dans la balise script vous allez écrire le code suivant
+    créer une variable exo
+
+    cette variable est un objet qui contient 4 propriétés (clé)
+
+    duree = 20
+    unite = minutes
+    sujet = "découverte de javascript"
+    competences qui est un tableau qui contient les 4 string = html css js  base de données
+
+    => affiche le sujet de l'exo la console
+    => affiche la dernière competences de l'exo dans la console 
+-->
