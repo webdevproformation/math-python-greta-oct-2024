@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Action</button>
+    <h1>bonjour</h1>
+    <script>
+        let button = document.querySelector("button");
+        let h1 = document.querySelector("h1");
+        let is_red = false ;
+
+        function traitement(){
+            if(is_red === false){
+                h1.style.color = "red";
+                h1.style.textDecoration = "underline";
+                is_red = true  ;
+            }else {
+                h1.style.color = "black";
+                h1.style.textDecoration = "none";
+                is_red = false  ;
+            }
+        }
+
+        button.addEventListener("click" , traitement);
+
+    </script>
+</body>
+</html>
