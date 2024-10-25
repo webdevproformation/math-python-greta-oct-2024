@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const arr1 = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+        let resultat = {};
+        for(let i = 0 ; i < 13 ; i += 1 ){
+            const key = arr1[i]
+            if(key in resultat){
+                resultat[key] += 1;
+            }else {
+                resultat[key] = 1
+            }
+        }
+        console.log(resultat); 
+        let max = 0;
+        let key_name = "";
+        for(let key in resultat){
+            if(resultat[key] > max){
+                max = resultat[key];
+                key_name =  key ;
+            }   
+        }
+        console.log(max , key_name)
+    </script>
+</body>
+</html>
+
+<!--
+1 créer le fichier 16- exo.html ayant une balise <script>
+
+2 la balise script contient une variable de type tableau :
+- le nom de la variable est fleurs
+- cette variable contient les valeurs suivantes :
+  - rose
+  - lilas
+  - muguet
+  - jasmin
+  - tulipe
+
+3 afficher dans la console le premier élément de la variable fleurs
+4 afficher dans la console le dernier élément de la variable fleurs
+5 afficher dans la console le troisième élément de la variable fleurs*
+6 ajouter la string "fleur rose" après "lilas"
+6 changer la valeur de "jasmin" par "fleur blanche"
+
+-->
