@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let formation = {
+            nom : "Greta",
+            duree : 6 ,
+            presentation : function(){
+                // this
+                console.log(`je suis une formation au sein du ${formation.nom} 92`)
+            },
+            start : function(){
+                console.log("j'ai commencé le 24 septembre 2024")
+            }
+        }
+
+        formation.presentation();
+        formation.start(); 
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <script>
+        // via javascript je veux réaliser les modifications du DOM (de la balise h1) 
+        // remplir du texte 
+        // taille de police 10px
+        // centrer dans la page 
+        // cherche dans la page web la balise h1 
+        let h1 = document.querySelector("h1") ;
+        // la variable h1 === objet 
+        /*
+        let h1 = {
+            innerText : "",
+            style : {
+                fontSize : "1rem",
+                textAlign : "left"
+            }
+        }
+        */
+        h1.innerText = "je viens de remplir la balise avec du js"
+        h1.style.fontSize = "10px";
+        h1.style.textAlign = "center";
+        h1.style.color = "red" ; 
+
+        // document.querySelector("h1").innerText = "je viens de remplir la balise avec du js"
+
+    </script>
+</body>
+</html>
+<!--
+créer un fichier 07-exo.html
+dans ce fichier 
+une balise p vide 
+une balise script
+    dans la balise script sélectionner la balise p et la stocker une variable p
+    à partir de cette variable (objet)
+        remplir le p avec le text => exo 1
+        modifier la couleur du du texte => blue
+        augmenter la taille de police à 20px 
+-->

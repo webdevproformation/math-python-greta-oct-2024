@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Action</button>
+    <p>Effet</p>
+    <script>
+        /*lorsque je clique sur le bouton que le contenu de la balise p taille de police 30px si je reclique sur le bouton le texte dans le p reprend sa taille de police d'origine 
+        effet toggle 
+        */
+
+        let button = document.querySelector("button"); 
+        let p = document.querySelector("p"); 
+        let is_small  = true ;  
+
+        function effet(){
+            if(is_small === true ){
+                p.style.fontSize = "30px" ; 
+                is_small = false ;
+            }else{
+                p.style.fontSize = "16px" ;
+                is_small = true ; 
+            }
+        }
+        // je veux excuter cette fonction lorsque je clique sur le bouton 
+        // effet()
+        button.addEventListener("click", effet)
+
+    </script>
+</body>
+</html>

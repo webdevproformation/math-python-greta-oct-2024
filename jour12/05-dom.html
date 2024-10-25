@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <p></p>
+    <script>
+        // automatiquement lorsque vous ouvrez une page web 
+        // le script exécute 
+        // MAIS AVANT même la balise script que vous êtes en train de remplir
+        // javascript 
+        let document = { // DOM Document Object Model 
+            h1 : {
+                contenu : "",
+                largeur : 0,
+                parent : {
+                    body : {}
+                },
+                hauteur : 0,
+                click : function(){},
+                mouseover : function(){}
+            },
+            p : {
+                contenu : "",
+                largeur : 0,
+                hauteur : 0,
+                click : function(){}
+            }
+        }
+    </script>
+</body>
+</html>
