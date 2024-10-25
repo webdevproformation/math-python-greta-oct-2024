@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>onglet 1</button>
+    <button>onglet 2</button>
+    <button>onglet 3</button>
+    <p>je suis le premier p</p>
+    <p>je suis le deuxieme p</p>
+    <p>je suis le dernier p</p>
+    <script>
+        // le système d'onglet 
+        // si je clique sur le 1er bouton => afficher le 1er p et masquer les autres
+        // si je clique sur le 2eme bouton => afficher le 2eme p et masquer les autres
+        // si je clique sur le 3eme bouton => afficher le 3eme p et masquer les autres
+        let tbl_button = document.querySelectorAll("button");
+        // [{},{},{}]
+        // tableau d'objet 
+        /* tbl_button[0]
+        tbl_button[1]
+        tbl_button[2] */
+        let tbl_p = document.querySelectorAll("p") ; 
+
+        function effet(onglet_a_afficher){
+            // masquer tous les p de la page 
+            for(let i = 0 ; i < tbl_p.length ; i += 1){
+                tbl_p[i].style.display = "none"
+            }
+            tbl_p[onglet_a_afficher].style.display = "block"
+        }   
+
+        for(let i = 0 ; i < tbl_button.length ; i += 1){
+            tbl_button[i].addEventListener("click", function(){
+                effet(i)
+            })
+        }
+
+        effet(0)// lorsque je lance l'application le 1er p est affiche / les autres sont masqués 
+    </script>
+</body>
+</html>
