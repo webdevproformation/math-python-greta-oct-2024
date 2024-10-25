@@ -8,9 +8,41 @@
 <body>
     <script>
 
-        
+        // dans un objet vous avez clé : valeur 
+        //                               string / bool / number / tableau
+        //                             : fonction 
 
+        let voiture = {
+            // 3 membres 
+            // 2 membres sont des propriétés 
+            nom : 206, // propriété 
+            marque : "Peugeot",
+            // 1 membre est une méthode 
+            demarrer : function(){ 
+                // fonction stockée un objet => méthode
+                console.log("la voiture démarre !!!"); 
+            }
+        }
+
+        // exécute la méthode demarrer stockée dans l'objet voiture 
+        voiture.demarrer() ;
 
     </script>
 </body>
 </html>
+<!-- 
+créer le fichier 04-exo.html
+créer une objet formation 
+contenant 2 propriétés et 2 méthodes 
+nom Greta
+duree 6
+
+presentation :  stocke une fonction qui contient les instructions suivantes 
+    console.log() du texte je suis une formation au sein du Greta 92
+
+start : stocker une fonction qui contient l'instruction suivante 
+    console.log du texte j'ai commencé le 24 septembre 2024
+
+veuille exécuter la méthode présentation et la  méthode start du l'objet formation
+
+-->
