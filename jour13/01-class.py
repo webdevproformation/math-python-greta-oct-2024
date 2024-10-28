@@ -35,3 +35,38 @@ class Etudiant : # PascalCase
     def presentation(self): # variable qui va permettre d'accéder aux propriétés de l'objet 
         print(f"je suis la méthode présentation de {self.prenom}")
 
+
+
+def calcul( *chiffres ) :
+    pass ; 
+
+calcul()
+calcul(1)
+calcul(1,2)
+calcul(1,2,3)
+
+
+def calcul( **chiffres ) :
+    print(chiffres.get("a"))
+    pass ; 
+
+calcul()
+calcul(a = 1)
+calcul(a = 1, b = 2)
+calcul(a = 1,b = 2,c = 3)
+
+""" print()
+sorted() # fonction builtins """
+
+[1,2,3].sort()
+
+# "coucou".sort()
+a = sorted("coucou")
+print(a)
+
+a = sorted([1,10,30,2,5])
+print(a)
+
+a = [1,10,30,2,44]
+a.sort()
+print(a)
