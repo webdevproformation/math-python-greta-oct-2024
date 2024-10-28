@@ -5,7 +5,7 @@ class Salaire :
         self.mois = p_mois
 
     def set_montant(self,valeur) :
-        if(type(valeur) == int and valeur > 0) :
+        if(type(valeur) is int and valeur > 0) :
             self.__montant = valeur
         else :
             raise Exception("montant invalide")
