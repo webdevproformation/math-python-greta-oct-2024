@@ -21,3 +21,14 @@ print(m.unite) # nom_objet.nom_cle (comme en Javascript)
 
 m.description() # pour exécuter une méthode nom_objet.nom_method()
                 # la méthode contient juste self ALORS pas besoin de mettre une valeur dans les ()
+
+# créer le fichier 03-exo.py
+# ce fichier contient une class Voiture
+# cette class contient 2 propriétés 
+# nom = Peugeot 206
+# prix = 3000
+# cette class contient aussi une méthode information
+# cette méthode contient une concaténation 
+# => j'ai acheté une Peugeot 206 en occasion à 3000 euros
+
+# créer un objet ET executer la méthode information
