@@ -1,3 +1,8 @@
+voiture = {
+    "nom" : "Peugeot 206"
+}
+
+
 class Voiture :
     nom = "Peugeot 206"
     prix = 3000

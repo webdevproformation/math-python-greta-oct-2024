@@ -29,3 +29,24 @@ voiture2.info()
 # dans le nom de la class il ne FAUT METTRE QUE 2 paramètres
 # nom de cette méthode magique => constructeur
 
+# créer le fichier 05-exo.py
+# dans ce fichier vous avez une class Personnage
+# contient 3 propriétés 
+# nom
+# pv
+# faction
+# initialiser ces 3 propriétés dans un constructeur
+# créer enfin une méthode qui réaliser une concaténation => presentation
+# "je m'appelle {nom} je suis {faction} et j'ai {pv} points de vie"
+
+# créer un objet qui s'appelle magicien 
+# nom => Merlin
+# pv 100
+# faction => mage
+
+# créer un objet qui s'appelle guerrier
+# nom Attila
+# pv 1000
+# faction => général 
+
+# exécuter la méthode presentation pour le guerrier et le magicien
