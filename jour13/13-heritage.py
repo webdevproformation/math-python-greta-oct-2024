@@ -26,3 +26,17 @@ g.frapper(m)
 g.frapper(m)
 g.frapper(m)
 print(vars(m)) # Game Over car les PV du magicien = 0 
+
+"""
+créer le fichier 14-exo.py
+Exercice : Gestion d’une Bibliothèque
+Créez un programme pour gérer une bibliothèque avec les classes suivantes :
+
+Classe Livre :
+Attributs : titre, auteur, année_publication
+Méthode : afficher_info() qui affiche les informations du livre
+Classe LivreEmpruntable (hérite de Livre) :
+Attributs supplémentaires : emprunteur, date_emprunt
+Méthode : emprunter(l’emprunteur, la date) qui met à jour les informations d’emprunt
+Méthode : retourner() qui réinitialise les informations d’emprunt
+"""
