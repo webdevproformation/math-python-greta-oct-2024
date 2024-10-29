@@ -42,3 +42,21 @@ livre.emprunter("moi", "01/01/2024")
 print(vars(livre))
 livre.retourner()
 print(vars(livre))
+
+
+## créer le fichier 02-exo.py
+## class Personnage 
+# 3 propriétés :  
+# nom  
+# pv 
+# is_vivant ( par défaut => True) 
+# créer une méthode qui permet d'afficher toutes les informations du personnage
+# créer une méthode qui va tuer le personnage  is_vivant => False
+
+# class Magicien qui est une class enfant de Personnage 
+# mana par défaut = 100
+# méthode lancer_un_sort qui consomme 20 de mana à chaque lancer de sort
+
+# créer un objet m qui va initialiser le magicien
+# lancer deux sorts
+# vérifier que le mana du magicien est désormais de 60 
