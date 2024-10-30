@@ -10,7 +10,6 @@ class Point:
         # return str(vars(self))
         return f"Point(x={self.x}, y={self.y})"
 
-
 pt1 = Point(1, 2)
 pt2 = Point(3, 4)
 pt3 = pt1 + pt2
